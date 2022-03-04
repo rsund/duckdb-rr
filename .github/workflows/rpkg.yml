@@ -2,8 +2,7 @@ name: Prepare R package
 on: workflow_dispatch
 
 jobs:
-  generate:
-    name: Start Ubuntu
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
