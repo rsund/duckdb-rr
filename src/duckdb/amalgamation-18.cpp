@@ -4,6 +4,8 @@
 
 #include "src/storage/compression/bitpacking.cpp"
 
+#include "src/storage/compression/dictionary_compression.cpp"
+
 #include "src/storage/compression/fixed_size_uncompressed.cpp"
 
 #include "src/storage/compression/numeric_constant.cpp"
@@ -87,6 +89,4 @@
 #include "src/transaction/transaction.cpp"
 
 #include "src/transaction/transaction_context.cpp"
-
-#include "src/transaction/transaction_manager.cpp"
 

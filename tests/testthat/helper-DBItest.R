@@ -6,7 +6,7 @@ reg.finalizer(drv@database_ref, function(x) duckdb:::rapi_shutdown(x))
 DBItest::make_context(
   drv,
   # dblog::dblog(duckdb::duckdb()),
-  list(debug = T),
+  list(debug = F),
   tweaks = DBItest::tweaks(
     omit_blob_tests = TRUE,
     temporary_tables = FALSE,
