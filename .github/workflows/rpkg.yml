@@ -37,6 +37,7 @@ jobs:
         R CMD build duckdb/tools/rpkg
         
      - name: Extract package
+       run: |
         tar -xf duckdb*.tar.gz -C main
     
      - name: Commit and push
