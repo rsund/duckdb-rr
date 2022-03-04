@@ -1,0 +1,44 @@
+name: Prepare R package
+on: workflow_dispatch
+
+jobs:
+  generate:
+    name: R Package Windows
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: main
+    - name: Duckdb repo
+      uses: actions/checkout@v2
+      with:
+        repository: duckdb/duckdb
+      path: duckdb  
+      
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: 'devel'
+
+    - name: Clone
+      run: |
+        git clone --depth=1 https://github.com/duckdb/duckdb.git
+        cd duckdb/tools/rpkg
+        ./configure
+        sed -i "s/'Windows'/platform.system()/g" rconfigure.py
+        sed -i "s/'Makevars'/'Makevars.win'/g" rconfigure.py
+        ./configure
+        cd
+        R CMD build duckdb/tools/rpkg
+        tar -xf duckdb*.tar.gz -C main
+        cd main
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git add .
+        git commit -m "Package update"
+        git push
+        
+        
