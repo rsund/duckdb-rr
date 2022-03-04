@@ -3,11 +3,10 @@ on: workflow_dispatch
 
 jobs:
   rstats-linux:
-    name: Ubuntu R
+    name: Checkout Ubuntu
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
       with:
         path: main
     
