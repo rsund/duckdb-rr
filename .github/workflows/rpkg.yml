@@ -33,6 +33,12 @@ jobs:
     - name: Extract package
       run: |
         tar -xf duckdb*.tar.gz -C main
-        
-
+    - name: Commit and push
+      run: |
+        cd main
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git add .
+        git commit -m "Package update"
+        git push
         
