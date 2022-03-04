@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   generate:
-    name: Checkout Ubuntu
+    name: Prepare in Ubuntu
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -30,6 +30,9 @@ jobs:
     - name: Build source package
       run: |
         R CMD build duckdb/tools/rpkg
+    - name: Extract package
+       run: |
+        tar -xf duckdb*.tar.gz -C main
         
 
         
