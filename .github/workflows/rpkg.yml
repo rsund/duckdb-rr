@@ -2,7 +2,8 @@ name: Prepare R package
 on: workflow_dispatch
 
 jobs:
-  build:
+  rstats-linux:
+    name: Ubuntu R
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
