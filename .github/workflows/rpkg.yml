@@ -31,7 +31,7 @@ jobs:
       run: |
         R CMD build duckdb/tools/rpkg
     - name: Extract package
-       run: |
+      run: |
         tar -xf duckdb*.tar.gz -C main
         
 
