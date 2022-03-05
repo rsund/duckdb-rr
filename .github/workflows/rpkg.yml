@@ -41,6 +41,7 @@ jobs:
     - name: Extract package
       run: |
         tar -xf duckdb*.tar.gz -C main --strip 1
+        cd main
         DEVVER="$(grep 'define DUCKDB_VERSION' src/function/table/version/pragma_version.cpp | tr -cd '[0-9].-')"
         CURVER="$(grep Version DESCRIPTION)"
         sed -i "s/$CURVER/Version: $DEVVER/g" DESCRIPTION
