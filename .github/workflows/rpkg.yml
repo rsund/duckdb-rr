@@ -23,11 +23,11 @@ jobs:
     - name: Clone
       run: |
         git clone https://github.com/duckdb/duckdb.git
-#        cd duckdb
-#        git config pull.rebase false
-#        git config --local user.name github-actions
-#        git config --local user.email github-actions@github.com
-#        git pull origin pull/3180/head
+        cd duckdb
+        git config pull.rebase false
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git pull origin pull/3180/head
     - name: rconfigure
       run: |
         cd duckdb/tools/rpkg
