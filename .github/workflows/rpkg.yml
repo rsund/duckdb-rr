@@ -28,7 +28,6 @@ jobs:
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
         git pull origin pull/3180/head
-        git pull origin pull/3199/head
     - name: rconfigure
       run: |
         cd duckdb/tools/rpkg
