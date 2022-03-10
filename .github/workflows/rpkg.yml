@@ -27,9 +27,10 @@ jobs:
         git config pull.rebase false
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
-        git pull origin pull/3180/head
+        git pull origin pull/3210/head
     - name: rconfigure
       run: |
+        export DUCKDB_R_EXTENSIONS=excel,fts,httpfs,icu,json,substrait,tpcds,tpch,visualizer
         cd duckdb/tools/rpkg
         python rconfigure.py
         sed -i "s/'Windows'/platform.system()/g" rconfigure.py
