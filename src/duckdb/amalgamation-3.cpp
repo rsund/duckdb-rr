@@ -1,27 +1,3 @@
-#include "src/common/types/vector.cpp"
-
-#include "src/common/types/vector_buffer.cpp"
-
-#include "src/common/types/vector_cache.cpp"
-
-#include "src/common/types/vector_constants.cpp"
-
-#include "src/common/value_operations/comparison_operations.cpp"
-
-#include "src/common/vector_operations/boolean_operators.cpp"
-
-#include "src/common/vector_operations/comparison_operators.cpp"
-
-#include "src/common/vector_operations/generators.cpp"
-
-#include "src/common/vector_operations/is_distinct_from.cpp"
-
-#include "src/common/vector_operations/null_operations.cpp"
-
-#include "src/common/vector_operations/numeric_inplace_operators.cpp"
-
-#include "src/common/vector_operations/vector_cast.cpp"
-
 #include "src/common/vector_operations/vector_copy.cpp"
 
 #include "src/common/vector_operations/vector_hash.cpp"
@@ -89,4 +65,40 @@
 #include "src/execution/operator/aggregate/physical_hash_aggregate.cpp"
 
 #include "src/execution/operator/aggregate/physical_perfecthash_aggregate.cpp"
+
+#include "src/execution/operator/aggregate/physical_simple_aggregate.cpp"
+
+#include "src/execution/operator/aggregate/physical_streaming_window.cpp"
+
+#include "src/execution/operator/aggregate/physical_window.cpp"
+
+#include "src/execution/operator/filter/physical_filter.cpp"
+
+#include "src/execution/operator/helper/physical_execute.cpp"
+
+#include "src/execution/operator/helper/physical_explain_analyze.cpp"
+
+#include "src/execution/operator/helper/physical_limit.cpp"
+
+#include "src/execution/operator/helper/physical_limit_percent.cpp"
+
+#include "src/execution/operator/helper/physical_load.cpp"
+
+#include "src/execution/operator/helper/physical_pragma.cpp"
+
+#include "src/execution/operator/helper/physical_prepare.cpp"
+
+#include "src/execution/operator/helper/physical_reservoir_sample.cpp"
+
+#include "src/execution/operator/helper/physical_set.cpp"
+
+#include "src/execution/operator/helper/physical_streaming_sample.cpp"
+
+#include "src/execution/operator/helper/physical_transaction.cpp"
+
+#include "src/execution/operator/helper/physical_vacuum.cpp"
+
+#include "src/execution/operator/join/perfect_hash_join_executor.cpp"
+
+#include "src/execution/operator/join/physical_blockwise_nl_join.cpp"
 

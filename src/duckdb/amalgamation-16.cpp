@@ -1,92 +1,100 @@
-#include "src/planner/binder/statement/bind_pragma.cpp"
+#include "src/storage/checkpoint/table_data_reader.cpp"
 
-#include "src/planner/binder/statement/bind_relation.cpp"
+#include "src/storage/checkpoint/table_data_writer.cpp"
 
-#include "src/planner/binder/statement/bind_select.cpp"
+#include "src/storage/checkpoint/write_overflow_strings_to_disk.cpp"
 
-#include "src/planner/binder/statement/bind_set.cpp"
+#include "src/storage/checkpoint_manager.cpp"
 
-#include "src/planner/binder/statement/bind_show.cpp"
+#include "src/storage/compression/bitpacking.cpp"
 
-#include "src/planner/binder/statement/bind_simple.cpp"
+#include "src/storage/compression/dictionary_compression.cpp"
 
-#include "src/planner/binder/statement/bind_summarize.cpp"
+#include "src/storage/compression/fixed_size_uncompressed.cpp"
 
-#include "src/planner/binder/statement/bind_update.cpp"
+#include "src/storage/compression/numeric_constant.cpp"
 
-#include "src/planner/binder/statement/bind_vacuum.cpp"
+#include "src/storage/compression/rle.cpp"
 
-#include "src/planner/binder/tableref/bind_basetableref.cpp"
+#include "src/storage/compression/string_uncompressed.cpp"
 
-#include "src/planner/binder/tableref/bind_crossproductref.cpp"
+#include "src/storage/compression/uncompressed.cpp"
 
-#include "src/planner/binder/tableref/bind_emptytableref.cpp"
+#include "src/storage/compression/validity_uncompressed.cpp"
 
-#include "src/planner/binder/tableref/bind_expressionlistref.cpp"
+#include "src/storage/data_table.cpp"
 
-#include "src/planner/binder/tableref/bind_joinref.cpp"
+#include "src/storage/index.cpp"
 
-#include "src/planner/binder/tableref/bind_named_parameters.cpp"
+#include "src/storage/local_storage.cpp"
 
-#include "src/planner/binder/tableref/bind_subqueryref.cpp"
+#include "src/storage/meta_block_reader.cpp"
 
-#include "src/planner/binder/tableref/bind_table_function.cpp"
+#include "src/storage/meta_block_writer.cpp"
 
-#include "src/planner/binder/tableref/plan_basetableref.cpp"
+#include "src/storage/single_file_block_manager.cpp"
 
-#include "src/planner/binder/tableref/plan_crossproductref.cpp"
+#include "src/storage/statistics/base_statistics.cpp"
 
-#include "src/planner/binder/tableref/plan_cteref.cpp"
+#include "src/storage/statistics/list_statistics.cpp"
 
-#include "src/planner/binder/tableref/plan_dummytableref.cpp"
+#include "src/storage/statistics/numeric_statistics.cpp"
 
-#include "src/planner/binder/tableref/plan_expressionlistref.cpp"
+#include "src/storage/statistics/segment_statistics.cpp"
 
-#include "src/planner/binder/tableref/plan_joinref.cpp"
+#include "src/storage/statistics/string_statistics.cpp"
 
-#include "src/planner/binder/tableref/plan_subqueryref.cpp"
+#include "src/storage/statistics/struct_statistics.cpp"
 
-#include "src/planner/binder/tableref/plan_table_function.cpp"
+#include "src/storage/statistics/validity_statistics.cpp"
 
-#include "src/planner/bound_result_modifier.cpp"
+#include "src/storage/storage_info.cpp"
 
-#include "src/planner/expression.cpp"
+#include "src/storage/storage_lock.cpp"
 
-#include "src/planner/expression/bound_aggregate_expression.cpp"
+#include "src/storage/storage_manager.cpp"
 
-#include "src/planner/expression/bound_between_expression.cpp"
+#include "src/storage/table/chunk_info.cpp"
 
-#include "src/planner/expression/bound_case_expression.cpp"
+#include "src/storage/table/column_checkpoint_state.cpp"
 
-#include "src/planner/expression/bound_cast_expression.cpp"
+#include "src/storage/table/column_data.cpp"
 
-#include "src/planner/expression/bound_columnref_expression.cpp"
+#include "src/storage/table/column_data_checkpointer.cpp"
 
-#include "src/planner/expression/bound_comparison_expression.cpp"
+#include "src/storage/table/column_segment.cpp"
 
-#include "src/planner/expression/bound_conjunction_expression.cpp"
+#include "src/storage/table/list_column_data.cpp"
 
-#include "src/planner/expression/bound_constant_expression.cpp"
+#include "src/storage/table/persistent_table_data.cpp"
 
-#include "src/planner/expression/bound_function_expression.cpp"
+#include "src/storage/table/row_group.cpp"
 
-#include "src/planner/expression/bound_operator_expression.cpp"
+#include "src/storage/table/segment_tree.cpp"
 
-#include "src/planner/expression/bound_parameter_expression.cpp"
+#include "src/storage/table/standard_column_data.cpp"
 
-#include "src/planner/expression/bound_reference_expression.cpp"
+#include "src/storage/table/struct_column_data.cpp"
 
-#include "src/planner/expression/bound_subquery_expression.cpp"
+#include "src/storage/table/update_segment.cpp"
 
-#include "src/planner/expression/bound_unnest_expression.cpp"
+#include "src/storage/table/validity_column_data.cpp"
 
-#include "src/planner/expression/bound_window_expression.cpp"
+#include "src/storage/wal_replay.cpp"
 
-#include "src/planner/expression_binder.cpp"
+#include "src/storage/write_ahead_log.cpp"
 
-#include "src/planner/expression_binder/aggregate_binder.cpp"
+#include "src/transaction/cleanup_state.cpp"
 
-#include "src/planner/expression_binder/alter_binder.cpp"
+#include "src/transaction/commit_state.cpp"
 
-#include "src/planner/expression_binder/check_binder.cpp"
+#include "src/transaction/rollback_state.cpp"
+
+#include "src/transaction/transaction.cpp"
+
+#include "src/transaction/transaction_context.cpp"
+
+#include "src/transaction/transaction_manager.cpp"
+
+#include "src/transaction/undo_buffer.cpp"
 

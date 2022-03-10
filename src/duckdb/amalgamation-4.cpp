@@ -1,39 +1,3 @@
-#include "src/execution/operator/aggregate/physical_simple_aggregate.cpp"
-
-#include "src/execution/operator/aggregate/physical_streaming_window.cpp"
-
-#include "src/execution/operator/aggregate/physical_window.cpp"
-
-#include "src/execution/operator/filter/physical_filter.cpp"
-
-#include "src/execution/operator/helper/physical_execute.cpp"
-
-#include "src/execution/operator/helper/physical_explain_analyze.cpp"
-
-#include "src/execution/operator/helper/physical_limit.cpp"
-
-#include "src/execution/operator/helper/physical_limit_percent.cpp"
-
-#include "src/execution/operator/helper/physical_load.cpp"
-
-#include "src/execution/operator/helper/physical_pragma.cpp"
-
-#include "src/execution/operator/helper/physical_prepare.cpp"
-
-#include "src/execution/operator/helper/physical_reservoir_sample.cpp"
-
-#include "src/execution/operator/helper/physical_set.cpp"
-
-#include "src/execution/operator/helper/physical_streaming_sample.cpp"
-
-#include "src/execution/operator/helper/physical_transaction.cpp"
-
-#include "src/execution/operator/helper/physical_vacuum.cpp"
-
-#include "src/execution/operator/join/perfect_hash_join_executor.cpp"
-
-#include "src/execution/operator/join/physical_blockwise_nl_join.cpp"
-
 #include "src/execution/operator/join/physical_comparison_join.cpp"
 
 #include "src/execution/operator/join/physical_cross_product.cpp"
@@ -89,4 +53,52 @@
 #include "src/execution/operator/schema/physical_create_index.cpp"
 
 #include "src/execution/operator/schema/physical_create_schema.cpp"
+
+#include "src/execution/operator/schema/physical_create_sequence.cpp"
+
+#include "src/execution/operator/schema/physical_create_table.cpp"
+
+#include "src/execution/operator/schema/physical_create_table_as.cpp"
+
+#include "src/execution/operator/schema/physical_create_type.cpp"
+
+#include "src/execution/operator/schema/physical_create_view.cpp"
+
+#include "src/execution/operator/schema/physical_drop.cpp"
+
+#include "src/execution/operator/set/physical_recursive_cte.cpp"
+
+#include "src/execution/operator/set/physical_union.cpp"
+
+#include "src/execution/partitionable_hashtable.cpp"
+
+#include "src/execution/perfect_aggregate_hashtable.cpp"
+
+#include "src/execution/physical_operator.cpp"
+
+#include "src/execution/physical_plan/plan_aggregate.cpp"
+
+#include "src/execution/physical_plan/plan_any_join.cpp"
+
+#include "src/execution/physical_plan/plan_chunk_get.cpp"
+
+#include "src/execution/physical_plan/plan_comparison_join.cpp"
+
+#include "src/execution/physical_plan/plan_copy_to_file.cpp"
+
+#include "src/execution/physical_plan/plan_create.cpp"
+
+#include "src/execution/physical_plan/plan_create_index.cpp"
+
+#include "src/execution/physical_plan/plan_create_table.cpp"
+
+#include "src/execution/physical_plan/plan_cross_product.cpp"
+
+#include "src/execution/physical_plan/plan_delete.cpp"
+
+#include "src/execution/physical_plan/plan_delim_get.cpp"
+
+#include "src/execution/physical_plan/plan_delim_join.cpp"
+
+#include "src/execution/physical_plan/plan_distinct.cpp"
 

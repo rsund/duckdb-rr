@@ -1,51 +1,3 @@
-#include "src/execution/operator/schema/physical_create_sequence.cpp"
-
-#include "src/execution/operator/schema/physical_create_table.cpp"
-
-#include "src/execution/operator/schema/physical_create_table_as.cpp"
-
-#include "src/execution/operator/schema/physical_create_type.cpp"
-
-#include "src/execution/operator/schema/physical_create_view.cpp"
-
-#include "src/execution/operator/schema/physical_drop.cpp"
-
-#include "src/execution/operator/set/physical_recursive_cte.cpp"
-
-#include "src/execution/operator/set/physical_union.cpp"
-
-#include "src/execution/partitionable_hashtable.cpp"
-
-#include "src/execution/perfect_aggregate_hashtable.cpp"
-
-#include "src/execution/physical_operator.cpp"
-
-#include "src/execution/physical_plan/plan_aggregate.cpp"
-
-#include "src/execution/physical_plan/plan_any_join.cpp"
-
-#include "src/execution/physical_plan/plan_chunk_get.cpp"
-
-#include "src/execution/physical_plan/plan_comparison_join.cpp"
-
-#include "src/execution/physical_plan/plan_copy_to_file.cpp"
-
-#include "src/execution/physical_plan/plan_create.cpp"
-
-#include "src/execution/physical_plan/plan_create_index.cpp"
-
-#include "src/execution/physical_plan/plan_create_table.cpp"
-
-#include "src/execution/physical_plan/plan_cross_product.cpp"
-
-#include "src/execution/physical_plan/plan_delete.cpp"
-
-#include "src/execution/physical_plan/plan_delim_get.cpp"
-
-#include "src/execution/physical_plan/plan_delim_join.cpp"
-
-#include "src/execution/physical_plan/plan_distinct.cpp"
-
 #include "src/execution/physical_plan/plan_dummy_scan.cpp"
 
 #include "src/execution/physical_plan/plan_empty_result.cpp"
@@ -89,4 +41,64 @@
 #include "src/execution/physical_plan/plan_simple.cpp"
 
 #include "src/execution/physical_plan/plan_top_n.cpp"
+
+#include "src/execution/physical_plan/plan_unnest.cpp"
+
+#include "src/execution/physical_plan/plan_update.cpp"
+
+#include "src/execution/physical_plan/plan_window.cpp"
+
+#include "src/execution/physical_plan_generator.cpp"
+
+#include "src/execution/radix_partitioned_hashtable.cpp"
+
+#include "src/execution/reservoir_sample.cpp"
+
+#include "src/execution/window_segment_tree.cpp"
+
+#include "src/function/aggregate/algebraic/avg.cpp"
+
+#include "src/function/aggregate/algebraic/corr.cpp"
+
+#include "src/function/aggregate/algebraic/covar.cpp"
+
+#include "src/function/aggregate/algebraic/stddev.cpp"
+
+#include "src/function/aggregate/algebraic_functions.cpp"
+
+#include "src/function/aggregate/distributive/approx_count.cpp"
+
+#include "src/function/aggregate/distributive/arg_min_max.cpp"
+
+#include "src/function/aggregate/distributive/bitagg.cpp"
+
+#include "src/function/aggregate/distributive/bool.cpp"
+
+#include "src/function/aggregate/distributive/count.cpp"
+
+#include "src/function/aggregate/distributive/entropy.cpp"
+
+#include "src/function/aggregate/distributive/first.cpp"
+
+#include "src/function/aggregate/distributive/kurtosis.cpp"
+
+#include "src/function/aggregate/distributive/minmax.cpp"
+
+#include "src/function/aggregate/distributive/product.cpp"
+
+#include "src/function/aggregate/distributive/skew.cpp"
+
+#include "src/function/aggregate/distributive/string_agg.cpp"
+
+#include "src/function/aggregate/distributive/sum.cpp"
+
+#include "src/function/aggregate/distributive_functions.cpp"
+
+#include "src/function/aggregate/holistic/approximate_quantile.cpp"
+
+#include "src/function/aggregate/holistic/mode.cpp"
+
+#include "src/function/aggregate/holistic/quantile.cpp"
+
+#include "src/function/aggregate/holistic/reservoir_quantile.cpp"
 

@@ -90,3 +90,15 @@
 
 #include "src/common/operator/convert_to_string.cpp"
 
+#include "src/common/operator/string_cast.cpp"
+
+#include "src/common/pipe_file_system.cpp"
+
+#include "src/common/printer.cpp"
+
+#include "src/common/progress_bar.cpp"
+
+#include "src/common/radix.cpp"
+
+#include "src/common/row_operations/row_aggregate.cpp"
+

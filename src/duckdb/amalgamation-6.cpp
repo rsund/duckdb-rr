@@ -1,63 +1,3 @@
-#include "src/execution/physical_plan/plan_unnest.cpp"
-
-#include "src/execution/physical_plan/plan_update.cpp"
-
-#include "src/execution/physical_plan/plan_window.cpp"
-
-#include "src/execution/physical_plan_generator.cpp"
-
-#include "src/execution/radix_partitioned_hashtable.cpp"
-
-#include "src/execution/reservoir_sample.cpp"
-
-#include "src/execution/window_segment_tree.cpp"
-
-#include "src/function/aggregate/algebraic/avg.cpp"
-
-#include "src/function/aggregate/algebraic/corr.cpp"
-
-#include "src/function/aggregate/algebraic/covar.cpp"
-
-#include "src/function/aggregate/algebraic/stddev.cpp"
-
-#include "src/function/aggregate/algebraic_functions.cpp"
-
-#include "src/function/aggregate/distributive/approx_count.cpp"
-
-#include "src/function/aggregate/distributive/arg_min_max.cpp"
-
-#include "src/function/aggregate/distributive/bitagg.cpp"
-
-#include "src/function/aggregate/distributive/bool.cpp"
-
-#include "src/function/aggregate/distributive/count.cpp"
-
-#include "src/function/aggregate/distributive/entropy.cpp"
-
-#include "src/function/aggregate/distributive/first.cpp"
-
-#include "src/function/aggregate/distributive/kurtosis.cpp"
-
-#include "src/function/aggregate/distributive/minmax.cpp"
-
-#include "src/function/aggregate/distributive/product.cpp"
-
-#include "src/function/aggregate/distributive/skew.cpp"
-
-#include "src/function/aggregate/distributive/string_agg.cpp"
-
-#include "src/function/aggregate/distributive/sum.cpp"
-
-#include "src/function/aggregate/distributive_functions.cpp"
-
-#include "src/function/aggregate/holistic/approximate_quantile.cpp"
-
-#include "src/function/aggregate/holistic/mode.cpp"
-
-#include "src/function/aggregate/holistic/quantile.cpp"
-
-#include "src/function/aggregate/holistic/reservoir_quantile.cpp"
-
 #include "src/function/aggregate/holistic_functions.cpp"
 
 #include "src/function/aggregate/nested/histogram.cpp"
@@ -89,4 +29,76 @@
 #include "src/function/compression_config.cpp"
 
 #include "src/function/function.cpp"
+
+#include "src/function/macro_function.cpp"
+
+#include "src/function/pragma/pragma_functions.cpp"
+
+#include "src/function/pragma/pragma_queries.cpp"
+
+#include "src/function/pragma_function.cpp"
+
+#include "src/function/scalar/blob/base64.cpp"
+
+#include "src/function/scalar/blob/encode.cpp"
+
+#include "src/function/scalar/date/age.cpp"
+
+#include "src/function/scalar/date/current.cpp"
+
+#include "src/function/scalar/date/date_diff.cpp"
+
+#include "src/function/scalar/date/date_part.cpp"
+
+#include "src/function/scalar/date/date_sub.cpp"
+
+#include "src/function/scalar/date/date_trunc.cpp"
+
+#include "src/function/scalar/date/epoch.cpp"
+
+#include "src/function/scalar/date/make_date.cpp"
+
+#include "src/function/scalar/date/strftime.cpp"
+
+#include "src/function/scalar/date/to_interval.cpp"
+
+#include "src/function/scalar/date_functions.cpp"
+
+#include "src/function/scalar/enum/enum_functions_implementation.cpp"
+
+#include "src/function/scalar/enum_functions.cpp"
+
+#include "src/function/scalar/generic/alias.cpp"
+
+#include "src/function/scalar/generic/constant_or_null.cpp"
+
+#include "src/function/scalar/generic/current_setting.cpp"
+
+#include "src/function/scalar/generic/hash.cpp"
+
+#include "src/function/scalar/generic/least.cpp"
+
+#include "src/function/scalar/generic/stats.cpp"
+
+#include "src/function/scalar/generic/typeof.cpp"
+
+#include "src/function/scalar/generic_functions.cpp"
+
+#include "src/function/scalar/list/array_slice.cpp"
+
+#include "src/function/scalar/list/contains_or_position.cpp"
+
+#include "src/function/scalar/list/flatten.cpp"
+
+#include "src/function/scalar/list/list_concat.cpp"
+
+#include "src/function/scalar/list/list_extract.cpp"
+
+#include "src/function/scalar/list/list_value.cpp"
+
+#include "src/function/scalar/list/range.cpp"
+
+#include "src/function/scalar/map/cardinality.cpp"
+
+#include "src/function/scalar/map/map.cpp"
 
