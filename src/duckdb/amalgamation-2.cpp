@@ -1,5 +1,3 @@
-#include "src/common/printer.cpp"
-
 #include "src/common/progress_bar.cpp"
 
 #include "src/common/radix.cpp"
@@ -93,4 +91,8 @@
 #include "src/common/types/vector_cache.cpp"
 
 #include "src/common/types/vector_constants.cpp"
+
+#include "src/common/value_operations/comparison_operations.cpp"
+
+#include "src/common/vector_operations/boolean_operators.cpp"
 

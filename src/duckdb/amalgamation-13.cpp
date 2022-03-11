@@ -1,27 +1,3 @@
-#include "src/parser/statement/set_statement.cpp"
-
-#include "src/parser/statement/show_statement.cpp"
-
-#include "src/parser/statement/transaction_statement.cpp"
-
-#include "src/parser/statement/update_statement.cpp"
-
-#include "src/parser/statement/vacuum_statement.cpp"
-
-#include "src/parser/tableref.cpp"
-
-#include "src/parser/tableref/basetableref.cpp"
-
-#include "src/parser/tableref/crossproductref.cpp"
-
-#include "src/parser/tableref/emptytableref.cpp"
-
-#include "src/parser/tableref/expressionlistref.cpp"
-
-#include "src/parser/tableref/joinref.cpp"
-
-#include "src/parser/tableref/subqueryref.cpp"
-
 #include "src/parser/tableref/table_function.cpp"
 
 #include "src/parser/transform/constraint/transform_constraint.cpp"
@@ -93,4 +69,30 @@
 #include "src/parser/transform/statement/transform_create_schema.cpp"
 
 #include "src/parser/transform/statement/transform_create_sequence.cpp"
+
+#include "src/parser/transform/statement/transform_create_table.cpp"
+
+#include "src/parser/transform/statement/transform_create_table_as.cpp"
+
+#include "src/parser/transform/statement/transform_create_view.cpp"
+
+#include "src/parser/transform/statement/transform_delete.cpp"
+
+#include "src/parser/transform/statement/transform_drop.cpp"
+
+#include "src/parser/transform/statement/transform_explain.cpp"
+
+#include "src/parser/transform/statement/transform_export.cpp"
+
+#include "src/parser/transform/statement/transform_import.cpp"
+
+#include "src/parser/transform/statement/transform_insert.cpp"
+
+#include "src/parser/transform/statement/transform_load.cpp"
+
+#include "src/parser/transform/statement/transform_pragma.cpp"
+
+#include "src/parser/transform/statement/transform_prepare.cpp"
+
+#include "src/parser/transform/statement/transform_rename.cpp"
 

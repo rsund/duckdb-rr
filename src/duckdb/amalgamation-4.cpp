@@ -1,9 +1,3 @@
-#include "src/execution/operator/helper/physical_limit.cpp"
-
-#include "src/execution/operator/helper/physical_limit_percent.cpp"
-
-#include "src/execution/operator/helper/physical_load.cpp"
-
 #include "src/execution/operator/helper/physical_pragma.cpp"
 
 #include "src/execution/operator/helper/physical_prepare.cpp"
@@ -93,4 +87,12 @@
 #include "src/execution/operator/set/physical_recursive_cte.cpp"
 
 #include "src/execution/operator/set/physical_union.cpp"
+
+#include "src/execution/partitionable_hashtable.cpp"
+
+#include "src/execution/perfect_aggregate_hashtable.cpp"
+
+#include "src/execution/physical_operator.cpp"
+
+#include "src/execution/physical_plan/plan_aggregate.cpp"
 
