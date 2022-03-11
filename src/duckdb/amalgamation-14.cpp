@@ -1,3 +1,29 @@
+#include "src/parser/transform/statement/transform_create_table.cpp"
+
+#include "src/parser/transform/statement/transform_create_table_as.cpp"
+
+#include "src/parser/transform/statement/transform_create_view.cpp"
+
+#include "src/parser/transform/statement/transform_delete.cpp"
+
+#include "src/parser/transform/statement/transform_drop.cpp"
+
+#include "src/parser/transform/statement/transform_explain.cpp"
+
+#include "src/parser/transform/statement/transform_export.cpp"
+
+#include "src/parser/transform/statement/transform_import.cpp"
+
+#include "src/parser/transform/statement/transform_insert.cpp"
+
+#include "src/parser/transform/statement/transform_load.cpp"
+
+#include "src/parser/transform/statement/transform_pragma.cpp"
+
+#include "src/parser/transform/statement/transform_prepare.cpp"
+
+#include "src/parser/transform/statement/transform_rename.cpp"
+
 #include "src/parser/transform/statement/transform_select.cpp"
 
 #include "src/parser/transform/statement/transform_select_node.cpp"
@@ -67,32 +93,4 @@
 #include "src/planner/binder/expression/bind_unnest_expression.cpp"
 
 #include "src/planner/binder/expression/bind_window_expression.cpp"
-
-#include "src/planner/binder/query_node/bind_recursive_cte_node.cpp"
-
-#include "src/planner/binder/query_node/bind_select_node.cpp"
-
-#include "src/planner/binder/query_node/bind_setop_node.cpp"
-
-#include "src/planner/binder/query_node/plan_query_node.cpp"
-
-#include "src/planner/binder/query_node/plan_recursive_cte_node.cpp"
-
-#include "src/planner/binder/query_node/plan_select_node.cpp"
-
-#include "src/planner/binder/query_node/plan_setop.cpp"
-
-#include "src/planner/binder/query_node/plan_subquery.cpp"
-
-#include "src/planner/binder/statement/bind_call.cpp"
-
-#include "src/planner/binder/statement/bind_copy.cpp"
-
-#include "src/planner/binder/statement/bind_create.cpp"
-
-#include "src/planner/binder/statement/bind_create_table.cpp"
-
-#include "src/planner/binder/statement/bind_delete.cpp"
-
-#include "src/planner/binder/statement/bind_drop.cpp"
 

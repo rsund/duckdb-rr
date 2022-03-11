@@ -1,3 +1,13 @@
+#include "src/function/aggregate/algebraic/stddev.cpp"
+
+#include "src/function/aggregate/algebraic_functions.cpp"
+
+#include "src/function/aggregate/distributive/approx_count.cpp"
+
+#include "src/function/aggregate/distributive/arg_min_max.cpp"
+
+#include "src/function/aggregate/distributive/bitagg.cpp"
+
 #include "src/function/aggregate/distributive/bool.cpp"
 
 #include "src/function/aggregate/distributive/count.cpp"
@@ -83,16 +93,4 @@
 #include "src/function/scalar/date/date_sub.cpp"
 
 #include "src/function/scalar/date/date_trunc.cpp"
-
-#include "src/function/scalar/date/epoch.cpp"
-
-#include "src/function/scalar/date/make_date.cpp"
-
-#include "src/function/scalar/date/strftime.cpp"
-
-#include "src/function/scalar/date/to_interval.cpp"
-
-#include "src/function/scalar/date_functions.cpp"
-
-#include "src/function/scalar/enum/enum_functions_implementation.cpp"
 

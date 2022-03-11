@@ -1,3 +1,23 @@
+#include "src/optimizer/rule/arithmetic_simplification.cpp"
+
+#include "src/optimizer/rule/case_simplification.cpp"
+
+#include "src/optimizer/rule/comparison_simplification.cpp"
+
+#include "src/optimizer/rule/conjunction_simplification.cpp"
+
+#include "src/optimizer/rule/constant_folding.cpp"
+
+#include "src/optimizer/rule/date_part_simplification.cpp"
+
+#include "src/optimizer/rule/distributivity.cpp"
+
+#include "src/optimizer/rule/empty_needle_removal.cpp"
+
+#include "src/optimizer/rule/enum_comparison.cpp"
+
+#include "src/optimizer/rule/in_clause_simplification_rule.cpp"
+
 #include "src/optimizer/rule/like_optimizations.cpp"
 
 #include "src/optimizer/rule/move_constants.cpp"
@@ -73,26 +93,4 @@
 #include "src/parser/column_definition.cpp"
 
 #include "src/parser/constraint.cpp"
-
-#include "src/parser/constraints/check_constraint.cpp"
-
-#include "src/parser/constraints/not_null_constraint.cpp"
-
-#include "src/parser/constraints/unique_constraint.cpp"
-
-#include "src/parser/expression/between_expression.cpp"
-
-#include "src/parser/expression/case_expression.cpp"
-
-#include "src/parser/expression/cast_expression.cpp"
-
-#include "src/parser/expression/collate_expression.cpp"
-
-#include "src/parser/expression/columnref_expression.cpp"
-
-#include "src/parser/expression/comparison_expression.cpp"
-
-#include "src/parser/expression/conjunction_expression.cpp"
-
-#include "src/parser/expression/constant_expression.cpp"
 
