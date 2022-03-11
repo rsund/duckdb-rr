@@ -1,3 +1,39 @@
+#include "src/function/scalar/enum_functions.cpp"
+
+#include "src/function/scalar/generic/alias.cpp"
+
+#include "src/function/scalar/generic/constant_or_null.cpp"
+
+#include "src/function/scalar/generic/current_setting.cpp"
+
+#include "src/function/scalar/generic/hash.cpp"
+
+#include "src/function/scalar/generic/least.cpp"
+
+#include "src/function/scalar/generic/stats.cpp"
+
+#include "src/function/scalar/generic/typeof.cpp"
+
+#include "src/function/scalar/generic_functions.cpp"
+
+#include "src/function/scalar/list/array_slice.cpp"
+
+#include "src/function/scalar/list/contains_or_position.cpp"
+
+#include "src/function/scalar/list/flatten.cpp"
+
+#include "src/function/scalar/list/list_concat.cpp"
+
+#include "src/function/scalar/list/list_extract.cpp"
+
+#include "src/function/scalar/list/list_value.cpp"
+
+#include "src/function/scalar/list/range.cpp"
+
+#include "src/function/scalar/map/cardinality.cpp"
+
+#include "src/function/scalar/map/map.cpp"
+
 #include "src/function/scalar/map/map_extract.cpp"
 
 #include "src/function/scalar/math/numeric.cpp"
@@ -59,46 +95,4 @@
 #include "src/function/scalar/string/pad.cpp"
 
 #include "src/function/scalar/string/prefix.cpp"
-
-#include "src/function/scalar/string/printf.cpp"
-
-#include "src/function/scalar/string/regexp.cpp"
-
-#include "src/function/scalar/string/repeat.cpp"
-
-#include "src/function/scalar/string/replace.cpp"
-
-#include "src/function/scalar/string/reverse.cpp"
-
-#include "src/function/scalar/string/string_split.cpp"
-
-#include "src/function/scalar/string/strip_accents.cpp"
-
-#include "src/function/scalar/string/substring.cpp"
-
-#include "src/function/scalar/string/suffix.cpp"
-
-#include "src/function/scalar/string/trim.cpp"
-
-#include "src/function/scalar/string_functions.cpp"
-
-#include "src/function/scalar/struct/struct_extract.cpp"
-
-#include "src/function/scalar/struct/struct_pack.cpp"
-
-#include "src/function/scalar/system/aggregate_export.cpp"
-
-#include "src/function/scalar/system/system_functions.cpp"
-
-#include "src/function/scalar/trigonometrics_functions.cpp"
-
-#include "src/function/scalar/uuid/gen_random.cpp"
-
-#include "src/function/scalar_function.cpp"
-
-#include "src/function/table/arrow.cpp"
-
-#include "src/function/table/checkpoint.cpp"
-
-#include "src/function/table/copy_csv.cpp"
 

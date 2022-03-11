@@ -1,3 +1,33 @@
+#include "src/function/aggregate/distributive/bool.cpp"
+
+#include "src/function/aggregate/distributive/count.cpp"
+
+#include "src/function/aggregate/distributive/entropy.cpp"
+
+#include "src/function/aggregate/distributive/first.cpp"
+
+#include "src/function/aggregate/distributive/kurtosis.cpp"
+
+#include "src/function/aggregate/distributive/minmax.cpp"
+
+#include "src/function/aggregate/distributive/product.cpp"
+
+#include "src/function/aggregate/distributive/skew.cpp"
+
+#include "src/function/aggregate/distributive/string_agg.cpp"
+
+#include "src/function/aggregate/distributive/sum.cpp"
+
+#include "src/function/aggregate/distributive_functions.cpp"
+
+#include "src/function/aggregate/holistic/approximate_quantile.cpp"
+
+#include "src/function/aggregate/holistic/mode.cpp"
+
+#include "src/function/aggregate/holistic/quantile.cpp"
+
+#include "src/function/aggregate/holistic/reservoir_quantile.cpp"
+
 #include "src/function/aggregate/holistic_functions.cpp"
 
 #include "src/function/aggregate/nested/histogram.cpp"
@@ -65,40 +95,4 @@
 #include "src/function/scalar/date_functions.cpp"
 
 #include "src/function/scalar/enum/enum_functions_implementation.cpp"
-
-#include "src/function/scalar/enum_functions.cpp"
-
-#include "src/function/scalar/generic/alias.cpp"
-
-#include "src/function/scalar/generic/constant_or_null.cpp"
-
-#include "src/function/scalar/generic/current_setting.cpp"
-
-#include "src/function/scalar/generic/hash.cpp"
-
-#include "src/function/scalar/generic/least.cpp"
-
-#include "src/function/scalar/generic/stats.cpp"
-
-#include "src/function/scalar/generic/typeof.cpp"
-
-#include "src/function/scalar/generic_functions.cpp"
-
-#include "src/function/scalar/list/array_slice.cpp"
-
-#include "src/function/scalar/list/contains_or_position.cpp"
-
-#include "src/function/scalar/list/flatten.cpp"
-
-#include "src/function/scalar/list/list_concat.cpp"
-
-#include "src/function/scalar/list/list_extract.cpp"
-
-#include "src/function/scalar/list/list_value.cpp"
-
-#include "src/function/scalar/list/range.cpp"
-
-#include "src/function/scalar/map/cardinality.cpp"
-
-#include "src/function/scalar/map/map.cpp"
 

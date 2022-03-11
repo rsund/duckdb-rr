@@ -1,3 +1,9 @@
+#include "src/common/progress_bar.cpp"
+
+#include "src/common/radix.cpp"
+
+#include "src/common/row_operations/row_aggregate.cpp"
+
 #include "src/common/row_operations/row_external.cpp"
 
 #include "src/common/row_operations/row_gather.cpp"
@@ -89,16 +95,4 @@
 #include "src/common/value_operations/comparison_operations.cpp"
 
 #include "src/common/vector_operations/boolean_operators.cpp"
-
-#include "src/common/vector_operations/comparison_operators.cpp"
-
-#include "src/common/vector_operations/generators.cpp"
-
-#include "src/common/vector_operations/is_distinct_from.cpp"
-
-#include "src/common/vector_operations/null_operations.cpp"
-
-#include "src/common/vector_operations/numeric_inplace_operators.cpp"
-
-#include "src/common/vector_operations/vector_cast.cpp"
 

@@ -1,3 +1,51 @@
+#include "src/function/table/unnest.cpp"
+
+#include "src/function/table/version/pragma_version.cpp"
+
+#include "src/function/table_function.cpp"
+
+#include "src/function/udf_function.cpp"
+
+#include "src/main/appender.cpp"
+
+#include "src/main/capi/appender-c.cpp"
+
+#include "src/main/capi/arrow-c.cpp"
+
+#include "src/main/capi/config-c.cpp"
+
+#include "src/main/capi/datetime-c.cpp"
+
+#include "src/main/capi/duckdb-c.cpp"
+
+#include "src/main/capi/helper-c.cpp"
+
+#include "src/main/capi/hugeint-c.cpp"
+
+#include "src/main/capi/prepared-c.cpp"
+
+#include "src/main/capi/result-c.cpp"
+
+#include "src/main/capi/value-c.cpp"
+
+#include "src/main/client_context.cpp"
+
+#include "src/main/client_context_file_opener.cpp"
+
+#include "src/main/config.cpp"
+
+#include "src/main/connection.cpp"
+
+#include "src/main/database.cpp"
+
+#include "src/main/extension.cpp"
+
+#include "src/main/extension/extension_helper.cpp"
+
+#include "src/main/extension/extension_install.cpp"
+
+#include "src/main/extension/extension_load.cpp"
+
 #include "src/main/materialized_query_result.cpp"
 
 #include "src/main/pending_query_result.cpp"
@@ -47,58 +95,4 @@
 #include "src/main/relation/subquery_relation.cpp"
 
 #include "src/main/relation/table_function_relation.cpp"
-
-#include "src/main/relation/table_relation.cpp"
-
-#include "src/main/relation/update_relation.cpp"
-
-#include "src/main/relation/value_relation.cpp"
-
-#include "src/main/relation/view_relation.cpp"
-
-#include "src/main/relation/write_csv_relation.cpp"
-
-#include "src/main/settings/settings.cpp"
-
-#include "src/main/stream_query_result.cpp"
-
-#include "src/optimizer/column_lifetime_analyzer.cpp"
-
-#include "src/optimizer/common_aggregate_optimizer.cpp"
-
-#include "src/optimizer/cse_optimizer.cpp"
-
-#include "src/optimizer/deliminator.cpp"
-
-#include "src/optimizer/expression_heuristics.cpp"
-
-#include "src/optimizer/expression_rewriter.cpp"
-
-#include "src/optimizer/filter_combiner.cpp"
-
-#include "src/optimizer/filter_pullup.cpp"
-
-#include "src/optimizer/filter_pushdown.cpp"
-
-#include "src/optimizer/in_clause_rewriter.cpp"
-
-#include "src/optimizer/join_order/join_relation_set.cpp"
-
-#include "src/optimizer/join_order/query_graph.cpp"
-
-#include "src/optimizer/join_order_optimizer.cpp"
-
-#include "src/optimizer/matcher/expression_matcher.cpp"
-
-#include "src/optimizer/optimizer.cpp"
-
-#include "src/optimizer/pullup/pullup_both_side.cpp"
-
-#include "src/optimizer/pullup/pullup_filter.cpp"
-
-#include "src/optimizer/pullup/pullup_from_left.cpp"
-
-#include "src/optimizer/pullup/pullup_projection.cpp"
-
-#include "src/optimizer/pullup/pullup_set_operation.cpp"
 

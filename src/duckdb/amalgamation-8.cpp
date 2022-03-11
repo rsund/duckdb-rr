@@ -1,3 +1,45 @@
+#include "src/function/scalar/string/printf.cpp"
+
+#include "src/function/scalar/string/regexp.cpp"
+
+#include "src/function/scalar/string/repeat.cpp"
+
+#include "src/function/scalar/string/replace.cpp"
+
+#include "src/function/scalar/string/reverse.cpp"
+
+#include "src/function/scalar/string/string_split.cpp"
+
+#include "src/function/scalar/string/strip_accents.cpp"
+
+#include "src/function/scalar/string/substring.cpp"
+
+#include "src/function/scalar/string/suffix.cpp"
+
+#include "src/function/scalar/string/trim.cpp"
+
+#include "src/function/scalar/string_functions.cpp"
+
+#include "src/function/scalar/struct/struct_extract.cpp"
+
+#include "src/function/scalar/struct/struct_pack.cpp"
+
+#include "src/function/scalar/system/aggregate_export.cpp"
+
+#include "src/function/scalar/system/system_functions.cpp"
+
+#include "src/function/scalar/trigonometrics_functions.cpp"
+
+#include "src/function/scalar/uuid/gen_random.cpp"
+
+#include "src/function/scalar_function.cpp"
+
+#include "src/function/table/arrow.cpp"
+
+#include "src/function/table/checkpoint.cpp"
+
+#include "src/function/table/copy_csv.cpp"
+
 #include "src/function/table/glob.cpp"
 
 #include "src/function/table/pragma_detailed_profiling_output.cpp"
@@ -53,52 +95,4 @@
 #include "src/function/table/system_functions.cpp"
 
 #include "src/function/table/table_scan.cpp"
-
-#include "src/function/table/unnest.cpp"
-
-#include "src/function/table/version/pragma_version.cpp"
-
-#include "src/function/table_function.cpp"
-
-#include "src/function/udf_function.cpp"
-
-#include "src/main/appender.cpp"
-
-#include "src/main/capi/appender-c.cpp"
-
-#include "src/main/capi/arrow-c.cpp"
-
-#include "src/main/capi/config-c.cpp"
-
-#include "src/main/capi/datetime-c.cpp"
-
-#include "src/main/capi/duckdb-c.cpp"
-
-#include "src/main/capi/helper-c.cpp"
-
-#include "src/main/capi/hugeint-c.cpp"
-
-#include "src/main/capi/prepared-c.cpp"
-
-#include "src/main/capi/result-c.cpp"
-
-#include "src/main/capi/value-c.cpp"
-
-#include "src/main/client_context.cpp"
-
-#include "src/main/client_context_file_opener.cpp"
-
-#include "src/main/config.cpp"
-
-#include "src/main/connection.cpp"
-
-#include "src/main/database.cpp"
-
-#include "src/main/extension.cpp"
-
-#include "src/main/extension/extension_helper.cpp"
-
-#include "src/main/extension/extension_install.cpp"
-
-#include "src/main/extension/extension_load.cpp"
 

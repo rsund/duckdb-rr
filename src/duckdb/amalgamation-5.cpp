@@ -1,3 +1,27 @@
+#include "src/execution/physical_plan/plan_any_join.cpp"
+
+#include "src/execution/physical_plan/plan_chunk_get.cpp"
+
+#include "src/execution/physical_plan/plan_comparison_join.cpp"
+
+#include "src/execution/physical_plan/plan_copy_to_file.cpp"
+
+#include "src/execution/physical_plan/plan_create.cpp"
+
+#include "src/execution/physical_plan/plan_create_index.cpp"
+
+#include "src/execution/physical_plan/plan_create_table.cpp"
+
+#include "src/execution/physical_plan/plan_cross_product.cpp"
+
+#include "src/execution/physical_plan/plan_delete.cpp"
+
+#include "src/execution/physical_plan/plan_delim_get.cpp"
+
+#include "src/execution/physical_plan/plan_delim_join.cpp"
+
+#include "src/execution/physical_plan/plan_distinct.cpp"
+
 #include "src/execution/physical_plan/plan_dummy_scan.cpp"
 
 #include "src/execution/physical_plan/plan_empty_result.cpp"
@@ -71,34 +95,4 @@
 #include "src/function/aggregate/distributive/arg_min_max.cpp"
 
 #include "src/function/aggregate/distributive/bitagg.cpp"
-
-#include "src/function/aggregate/distributive/bool.cpp"
-
-#include "src/function/aggregate/distributive/count.cpp"
-
-#include "src/function/aggregate/distributive/entropy.cpp"
-
-#include "src/function/aggregate/distributive/first.cpp"
-
-#include "src/function/aggregate/distributive/kurtosis.cpp"
-
-#include "src/function/aggregate/distributive/minmax.cpp"
-
-#include "src/function/aggregate/distributive/product.cpp"
-
-#include "src/function/aggregate/distributive/skew.cpp"
-
-#include "src/function/aggregate/distributive/string_agg.cpp"
-
-#include "src/function/aggregate/distributive/sum.cpp"
-
-#include "src/function/aggregate/distributive_functions.cpp"
-
-#include "src/function/aggregate/holistic/approximate_quantile.cpp"
-
-#include "src/function/aggregate/holistic/mode.cpp"
-
-#include "src/function/aggregate/holistic/quantile.cpp"
-
-#include "src/function/aggregate/holistic/reservoir_quantile.cpp"
 
