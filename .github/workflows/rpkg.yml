@@ -39,6 +39,17 @@ jobs:
     - name: Build source package
       run: |
         R CMD build duckdb/tools/rpkg
+    - name: Clear files
+      run: |
+        cd main
+        rm DESCRIPTION
+        rm NAMESPACE
+        rm README.md
+        rm -rf R
+        rm -rf inst
+        rm -rf man
+        rm -rf src
+        rm -rf tests
     - name: Extract package
       run: |
         tar -xf duckdb*.tar.gz -C main --strip 1
