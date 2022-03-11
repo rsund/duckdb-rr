@@ -30,7 +30,7 @@ jobs:
         git pull origin pull/3210/head
     - name: rconfigure
       run: |
-        export DUCKDB_R_EXTENSIONS=excel,fts,httpfs,icu,json,tpch,visualizer
+        export DUCKDB_R_EXTENSIONS=excel,fts,httpfs,icu,json,visualizer
         cd duckdb/tools/rpkg
         python rconfigure.py
         sed -i "s/'Windows'/platform.system()/g" rconfigure.py
