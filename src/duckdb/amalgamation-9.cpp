@@ -1,3 +1,19 @@
+#include "src/function/table/system/pragma_database_list.cpp"
+
+#include "src/function/table/system/pragma_database_size.cpp"
+
+#include "src/function/table/system/pragma_functions.cpp"
+
+#include "src/function/table/system/pragma_storage_info.cpp"
+
+#include "src/function/table/system/pragma_table_info.cpp"
+
+#include "src/function/table/system/test_all_types.cpp"
+
+#include "src/function/table/system_functions.cpp"
+
+#include "src/function/table/table_scan.cpp"
+
 #include "src/function/table/unnest.cpp"
 
 #include "src/function/table/version/pragma_version.cpp"
@@ -77,22 +93,4 @@
 #include "src/main/relation/filter_relation.cpp"
 
 #include "src/main/relation/insert_relation.cpp"
-
-#include "src/main/relation/join_relation.cpp"
-
-#include "src/main/relation/limit_relation.cpp"
-
-#include "src/main/relation/order_relation.cpp"
-
-#include "src/main/relation/projection_relation.cpp"
-
-#include "src/main/relation/query_relation.cpp"
-
-#include "src/main/relation/read_csv_relation.cpp"
-
-#include "src/main/relation/setop_relation.cpp"
-
-#include "src/main/relation/subquery_relation.cpp"
-
-#include "src/main/relation/table_function_relation.cpp"
 
