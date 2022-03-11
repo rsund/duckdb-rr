@@ -65,5 +65,5 @@ jobs:
         NOL="$(git status --porcelain | wc -l)"
         git add .
         git commit -m "Package update"
-        if (($NOL>2)); then git push; else echo 'No need to push!'; fi
+        if (($NOL>2)); then git push --force; else echo 'No need to push!'; fi
         
