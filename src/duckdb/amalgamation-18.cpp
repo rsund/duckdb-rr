@@ -1,3 +1,5 @@
+#include "src/storage/table/row_group.cpp"
+
 #include "src/storage/table/segment_tree.cpp"
 
 #include "src/storage/table/standard_column_data.cpp"

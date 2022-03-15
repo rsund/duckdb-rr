@@ -48,6 +48,8 @@
 
 #include "src/planner/expression_binder/relation_binder.cpp"
 
+#include "src/planner/expression_binder/returning_binder.cpp"
+
 #include "src/planner/expression_binder/select_binder.cpp"
 
 #include "src/planner/expression_binder/update_binder.cpp"
@@ -91,6 +93,4 @@
 #include "src/planner/operator/logical_projection.cpp"
 
 #include "src/planner/operator/logical_sample.cpp"
-
-#include "src/planner/operator/logical_unnest.cpp"
 
