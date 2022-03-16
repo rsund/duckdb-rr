@@ -1,3 +1,5 @@
+#include "src/parser/transform/statement/transform_create_sequence.cpp"
+
 #include "src/parser/transform/statement/transform_create_table.cpp"
 
 #include "src/parser/transform/statement/transform_create_table_as.cpp"
@@ -91,6 +93,4 @@
 #include "src/planner/binder/expression/bind_subquery_expression.cpp"
 
 #include "src/planner/binder/expression/bind_unnest_expression.cpp"
-
-#include "src/planner/binder/expression/bind_window_expression.cpp"
 

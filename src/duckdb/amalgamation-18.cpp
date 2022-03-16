@@ -1,3 +1,5 @@
+#include "src/storage/table/persistent_table_data.cpp"
+
 #include "src/storage/table/row_group.cpp"
 
 #include "src/storage/table/segment_tree.cpp"

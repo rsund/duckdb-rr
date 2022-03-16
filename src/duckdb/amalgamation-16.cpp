@@ -1,3 +1,5 @@
+#include "src/planner/expression/bound_case_expression.cpp"
+
 #include "src/planner/expression/bound_cast_expression.cpp"
 
 #include "src/planner/expression/bound_columnref_expression.cpp"
@@ -91,6 +93,4 @@
 #include "src/planner/operator/logical_limit.cpp"
 
 #include "src/planner/operator/logical_projection.cpp"
-
-#include "src/planner/operator/logical_sample.cpp"
 

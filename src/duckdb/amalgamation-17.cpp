@@ -1,3 +1,5 @@
+#include "src/planner/operator/logical_sample.cpp"
+
 #include "src/planner/operator/logical_unnest.cpp"
 
 #include "src/planner/operator/logical_window.cpp"
@@ -91,6 +93,4 @@
 #include "src/storage/table/column_segment.cpp"
 
 #include "src/storage/table/list_column_data.cpp"
-
-#include "src/storage/table/persistent_table_data.cpp"
 

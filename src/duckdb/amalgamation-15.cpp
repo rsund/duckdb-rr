@@ -1,3 +1,5 @@
+#include "src/planner/binder/expression/bind_window_expression.cpp"
+
 #include "src/planner/binder/query_node/bind_recursive_cte_node.cpp"
 
 #include "src/planner/binder/query_node/bind_select_node.cpp"
@@ -91,6 +93,4 @@
 #include "src/planner/expression/bound_aggregate_expression.cpp"
 
 #include "src/planner/expression/bound_between_expression.cpp"
-
-#include "src/planner/expression/bound_case_expression.cpp"
 
