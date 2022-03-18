@@ -1,31 +1,3 @@
-#include "src/planner/expression/bound_case_expression.cpp"
-
-#include "src/planner/expression/bound_cast_expression.cpp"
-
-#include "src/planner/expression/bound_columnref_expression.cpp"
-
-#include "src/planner/expression/bound_comparison_expression.cpp"
-
-#include "src/planner/expression/bound_conjunction_expression.cpp"
-
-#include "src/planner/expression/bound_constant_expression.cpp"
-
-#include "src/planner/expression/bound_function_expression.cpp"
-
-#include "src/planner/expression/bound_operator_expression.cpp"
-
-#include "src/planner/expression/bound_parameter_expression.cpp"
-
-#include "src/planner/expression/bound_reference_expression.cpp"
-
-#include "src/planner/expression/bound_subquery_expression.cpp"
-
-#include "src/planner/expression/bound_unnest_expression.cpp"
-
-#include "src/planner/expression/bound_window_expression.cpp"
-
-#include "src/planner/expression_binder.cpp"
-
 #include "src/planner/expression_binder/aggregate_binder.cpp"
 
 #include "src/planner/expression_binder/alter_binder.cpp"
@@ -93,4 +65,34 @@
 #include "src/planner/operator/logical_limit.cpp"
 
 #include "src/planner/operator/logical_projection.cpp"
+
+#include "src/planner/operator/logical_sample.cpp"
+
+#include "src/planner/operator/logical_unnest.cpp"
+
+#include "src/planner/operator/logical_window.cpp"
+
+#include "src/planner/planner.cpp"
+
+#include "src/planner/pragma_handler.cpp"
+
+#include "src/planner/subquery/flatten_dependent_join.cpp"
+
+#include "src/planner/subquery/has_correlated_expressions.cpp"
+
+#include "src/planner/subquery/rewrite_correlated_expressions.cpp"
+
+#include "src/planner/table_binding.cpp"
+
+#include "src/planner/table_filter.cpp"
+
+#include "src/storage/block.cpp"
+
+#include "src/storage/buffer/buffer_handle.cpp"
+
+#include "src/storage/buffer/managed_buffer.cpp"
+
+#include "src/storage/buffer_manager.cpp"
+
+#include "src/storage/checkpoint/table_data_reader.cpp"
 

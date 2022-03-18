@@ -1,33 +1,3 @@
-#include "src/planner/operator/logical_sample.cpp"
-
-#include "src/planner/operator/logical_unnest.cpp"
-
-#include "src/planner/operator/logical_window.cpp"
-
-#include "src/planner/planner.cpp"
-
-#include "src/planner/pragma_handler.cpp"
-
-#include "src/planner/subquery/flatten_dependent_join.cpp"
-
-#include "src/planner/subquery/has_correlated_expressions.cpp"
-
-#include "src/planner/subquery/rewrite_correlated_expressions.cpp"
-
-#include "src/planner/table_binding.cpp"
-
-#include "src/planner/table_filter.cpp"
-
-#include "src/storage/block.cpp"
-
-#include "src/storage/buffer/buffer_handle.cpp"
-
-#include "src/storage/buffer/managed_buffer.cpp"
-
-#include "src/storage/buffer_manager.cpp"
-
-#include "src/storage/checkpoint/table_data_reader.cpp"
-
 #include "src/storage/checkpoint/table_data_writer.cpp"
 
 #include "src/storage/checkpoint/write_overflow_strings_to_disk.cpp"
@@ -93,4 +63,36 @@
 #include "src/storage/table/column_segment.cpp"
 
 #include "src/storage/table/list_column_data.cpp"
+
+#include "src/storage/table/persistent_table_data.cpp"
+
+#include "src/storage/table/row_group.cpp"
+
+#include "src/storage/table/segment_tree.cpp"
+
+#include "src/storage/table/standard_column_data.cpp"
+
+#include "src/storage/table/struct_column_data.cpp"
+
+#include "src/storage/table/update_segment.cpp"
+
+#include "src/storage/table/validity_column_data.cpp"
+
+#include "src/storage/wal_replay.cpp"
+
+#include "src/storage/write_ahead_log.cpp"
+
+#include "src/transaction/cleanup_state.cpp"
+
+#include "src/transaction/commit_state.cpp"
+
+#include "src/transaction/rollback_state.cpp"
+
+#include "src/transaction/transaction.cpp"
+
+#include "src/transaction/transaction_context.cpp"
+
+#include "src/transaction/transaction_manager.cpp"
+
+#include "src/transaction/undo_buffer.cpp"
 

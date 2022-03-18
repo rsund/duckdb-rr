@@ -1,15 +1,3 @@
-#include "src/function/scalar/date/epoch.cpp"
-
-#include "src/function/scalar/date/make_date.cpp"
-
-#include "src/function/scalar/date/strftime.cpp"
-
-#include "src/function/scalar/date/to_interval.cpp"
-
-#include "src/function/scalar/date_functions.cpp"
-
-#include "src/function/scalar/enum/enum_functions_implementation.cpp"
-
 #include "src/function/scalar/enum_functions.cpp"
 
 #include "src/function/scalar/generic/alias.cpp"
@@ -93,4 +81,18 @@
 #include "src/function/scalar/string/left_right.cpp"
 
 #include "src/function/scalar/string/length.cpp"
+
+#include "src/function/scalar/string/levenshtein.cpp"
+
+#include "src/function/scalar/string/like.cpp"
+
+#include "src/function/scalar/string/md5.cpp"
+
+#include "src/function/scalar/string/mismatches.cpp"
+
+#include "src/function/scalar/string/nfc_normalize.cpp"
+
+#include "src/function/scalar/string/pad.cpp"
+
+#include "src/function/scalar/string/prefix.cpp"
 

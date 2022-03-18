@@ -1,29 +1,3 @@
-#include "src/planner/binder/expression/bind_window_expression.cpp"
-
-#include "src/planner/binder/query_node/bind_recursive_cte_node.cpp"
-
-#include "src/planner/binder/query_node/bind_select_node.cpp"
-
-#include "src/planner/binder/query_node/bind_setop_node.cpp"
-
-#include "src/planner/binder/query_node/plan_query_node.cpp"
-
-#include "src/planner/binder/query_node/plan_recursive_cte_node.cpp"
-
-#include "src/planner/binder/query_node/plan_select_node.cpp"
-
-#include "src/planner/binder/query_node/plan_setop.cpp"
-
-#include "src/planner/binder/query_node/plan_subquery.cpp"
-
-#include "src/planner/binder/statement/bind_call.cpp"
-
-#include "src/planner/binder/statement/bind_copy.cpp"
-
-#include "src/planner/binder/statement/bind_create.cpp"
-
-#include "src/planner/binder/statement/bind_create_table.cpp"
-
 #include "src/planner/binder/statement/bind_delete.cpp"
 
 #include "src/planner/binder/statement/bind_drop.cpp"
@@ -93,4 +67,32 @@
 #include "src/planner/expression/bound_aggregate_expression.cpp"
 
 #include "src/planner/expression/bound_between_expression.cpp"
+
+#include "src/planner/expression/bound_case_expression.cpp"
+
+#include "src/planner/expression/bound_cast_expression.cpp"
+
+#include "src/planner/expression/bound_columnref_expression.cpp"
+
+#include "src/planner/expression/bound_comparison_expression.cpp"
+
+#include "src/planner/expression/bound_conjunction_expression.cpp"
+
+#include "src/planner/expression/bound_constant_expression.cpp"
+
+#include "src/planner/expression/bound_function_expression.cpp"
+
+#include "src/planner/expression/bound_operator_expression.cpp"
+
+#include "src/planner/expression/bound_parameter_expression.cpp"
+
+#include "src/planner/expression/bound_reference_expression.cpp"
+
+#include "src/planner/expression/bound_subquery_expression.cpp"
+
+#include "src/planner/expression/bound_unnest_expression.cpp"
+
+#include "src/planner/expression/bound_window_expression.cpp"
+
+#include "src/planner/expression_binder.cpp"
 

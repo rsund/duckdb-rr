@@ -1,23 +1,3 @@
-#include "src/parser/constraint.cpp"
-
-#include "src/parser/constraints/check_constraint.cpp"
-
-#include "src/parser/constraints/not_null_constraint.cpp"
-
-#include "src/parser/constraints/unique_constraint.cpp"
-
-#include "src/parser/expression/between_expression.cpp"
-
-#include "src/parser/expression/case_expression.cpp"
-
-#include "src/parser/expression/cast_expression.cpp"
-
-#include "src/parser/expression/collate_expression.cpp"
-
-#include "src/parser/expression/columnref_expression.cpp"
-
-#include "src/parser/expression/comparison_expression.cpp"
-
 #include "src/parser/expression/conjunction_expression.cpp"
 
 #include "src/parser/expression/constant_expression.cpp"
@@ -93,4 +73,26 @@
 #include "src/parser/statement/prepare_statement.cpp"
 
 #include "src/parser/statement/relation_statement.cpp"
+
+#include "src/parser/statement/select_statement.cpp"
+
+#include "src/parser/statement/set_statement.cpp"
+
+#include "src/parser/statement/show_statement.cpp"
+
+#include "src/parser/statement/transaction_statement.cpp"
+
+#include "src/parser/statement/update_statement.cpp"
+
+#include "src/parser/statement/vacuum_statement.cpp"
+
+#include "src/parser/tableref.cpp"
+
+#include "src/parser/tableref/basetableref.cpp"
+
+#include "src/parser/tableref/crossproductref.cpp"
+
+#include "src/parser/tableref/emptytableref.cpp"
+
+#include "src/parser/tableref/expressionlistref.cpp"
 

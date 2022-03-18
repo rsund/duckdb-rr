@@ -1,17 +1,3 @@
-#include "src/function/scalar/string/levenshtein.cpp"
-
-#include "src/function/scalar/string/like.cpp"
-
-#include "src/function/scalar/string/md5.cpp"
-
-#include "src/function/scalar/string/mismatches.cpp"
-
-#include "src/function/scalar/string/nfc_normalize.cpp"
-
-#include "src/function/scalar/string/pad.cpp"
-
-#include "src/function/scalar/string/prefix.cpp"
-
 #include "src/function/scalar/string/printf.cpp"
 
 #include "src/function/scalar/string/regexp.cpp"
@@ -93,4 +79,20 @@
 #include "src/function/table/system/duckdb_views.cpp"
 
 #include "src/function/table/system/pragma_collations.cpp"
+
+#include "src/function/table/system/pragma_database_list.cpp"
+
+#include "src/function/table/system/pragma_database_size.cpp"
+
+#include "src/function/table/system/pragma_functions.cpp"
+
+#include "src/function/table/system/pragma_storage_info.cpp"
+
+#include "src/function/table/system/pragma_table_info.cpp"
+
+#include "src/function/table/system/test_all_types.cpp"
+
+#include "src/function/table/system_functions.cpp"
+
+#include "src/function/table/table_scan.cpp"
 
