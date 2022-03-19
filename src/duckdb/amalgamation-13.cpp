@@ -1,3 +1,13 @@
+#include "src/parser/tableref.cpp"
+
+#include "src/parser/tableref/basetableref.cpp"
+
+#include "src/parser/tableref/crossproductref.cpp"
+
+#include "src/parser/tableref/emptytableref.cpp"
+
+#include "src/parser/tableref/expressionlistref.cpp"
+
 #include "src/parser/tableref/joinref.cpp"
 
 #include "src/parser/tableref/subqueryref.cpp"
@@ -85,14 +95,4 @@
 #include "src/parser/transform/statement/transform_drop.cpp"
 
 #include "src/parser/transform/statement/transform_explain.cpp"
-
-#include "src/parser/transform/statement/transform_export.cpp"
-
-#include "src/parser/transform/statement/transform_import.cpp"
-
-#include "src/parser/transform/statement/transform_insert.cpp"
-
-#include "src/parser/transform/statement/transform_load.cpp"
-
-#include "src/parser/transform/statement/transform_pragma.cpp"
 

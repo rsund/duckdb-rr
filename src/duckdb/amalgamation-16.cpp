@@ -1,3 +1,13 @@
+#include "src/planner/expression/bound_reference_expression.cpp"
+
+#include "src/planner/expression/bound_subquery_expression.cpp"
+
+#include "src/planner/expression/bound_unnest_expression.cpp"
+
+#include "src/planner/expression/bound_window_expression.cpp"
+
+#include "src/planner/expression_binder.cpp"
+
 #include "src/planner/expression_binder/aggregate_binder.cpp"
 
 #include "src/planner/expression_binder/alter_binder.cpp"
@@ -85,14 +95,4 @@
 #include "src/planner/table_binding.cpp"
 
 #include "src/planner/table_filter.cpp"
-
-#include "src/storage/block.cpp"
-
-#include "src/storage/buffer/buffer_handle.cpp"
-
-#include "src/storage/buffer/managed_buffer.cpp"
-
-#include "src/storage/buffer_manager.cpp"
-
-#include "src/storage/checkpoint/table_data_reader.cpp"
 

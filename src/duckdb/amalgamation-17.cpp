@@ -1,3 +1,13 @@
+#include "src/storage/block.cpp"
+
+#include "src/storage/buffer/buffer_handle.cpp"
+
+#include "src/storage/buffer/managed_buffer.cpp"
+
+#include "src/storage/buffer_manager.cpp"
+
+#include "src/storage/checkpoint/table_data_reader.cpp"
+
 #include "src/storage/checkpoint/table_data_writer.cpp"
 
 #include "src/storage/checkpoint/write_overflow_strings_to_disk.cpp"
@@ -85,14 +95,4 @@
 #include "src/transaction/cleanup_state.cpp"
 
 #include "src/transaction/commit_state.cpp"
-
-#include "src/transaction/rollback_state.cpp"
-
-#include "src/transaction/transaction.cpp"
-
-#include "src/transaction/transaction_context.cpp"
-
-#include "src/transaction/transaction_manager.cpp"
-
-#include "src/transaction/undo_buffer.cpp"
 

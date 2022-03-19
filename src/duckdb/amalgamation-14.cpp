@@ -1,3 +1,13 @@
+#include "src/parser/transform/statement/transform_export.cpp"
+
+#include "src/parser/transform/statement/transform_import.cpp"
+
+#include "src/parser/transform/statement/transform_insert.cpp"
+
+#include "src/parser/transform/statement/transform_load.cpp"
+
+#include "src/parser/transform/statement/transform_pragma.cpp"
+
 #include "src/parser/transform/statement/transform_prepare.cpp"
 
 #include "src/parser/transform/statement/transform_rename.cpp"
@@ -85,14 +95,4 @@
 #include "src/planner/binder/query_node/plan_select_node.cpp"
 
 #include "src/planner/binder/query_node/plan_setop.cpp"
-
-#include "src/planner/binder/query_node/plan_subquery.cpp"
-
-#include "src/planner/binder/statement/bind_call.cpp"
-
-#include "src/planner/binder/statement/bind_copy.cpp"
-
-#include "src/planner/binder/statement/bind_create.cpp"
-
-#include "src/planner/binder/statement/bind_create_table.cpp"
 

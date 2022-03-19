@@ -1,3 +1,13 @@
+#include "src/parser/expression/case_expression.cpp"
+
+#include "src/parser/expression/cast_expression.cpp"
+
+#include "src/parser/expression/collate_expression.cpp"
+
+#include "src/parser/expression/columnref_expression.cpp"
+
+#include "src/parser/expression/comparison_expression.cpp"
+
 #include "src/parser/expression/conjunction_expression.cpp"
 
 #include "src/parser/expression/constant_expression.cpp"
@@ -85,14 +95,4 @@
 #include "src/parser/statement/update_statement.cpp"
 
 #include "src/parser/statement/vacuum_statement.cpp"
-
-#include "src/parser/tableref.cpp"
-
-#include "src/parser/tableref/basetableref.cpp"
-
-#include "src/parser/tableref/crossproductref.cpp"
-
-#include "src/parser/tableref/emptytableref.cpp"
-
-#include "src/parser/tableref/expressionlistref.cpp"
 

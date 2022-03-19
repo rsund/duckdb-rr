@@ -1,3 +1,13 @@
+#include "src/planner/binder/query_node/plan_subquery.cpp"
+
+#include "src/planner/binder/statement/bind_call.cpp"
+
+#include "src/planner/binder/statement/bind_copy.cpp"
+
+#include "src/planner/binder/statement/bind_create.cpp"
+
+#include "src/planner/binder/statement/bind_create_table.cpp"
+
 #include "src/planner/binder/statement/bind_delete.cpp"
 
 #include "src/planner/binder/statement/bind_drop.cpp"
@@ -85,14 +95,4 @@
 #include "src/planner/expression/bound_operator_expression.cpp"
 
 #include "src/planner/expression/bound_parameter_expression.cpp"
-
-#include "src/planner/expression/bound_reference_expression.cpp"
-
-#include "src/planner/expression/bound_subquery_expression.cpp"
-
-#include "src/planner/expression/bound_unnest_expression.cpp"
-
-#include "src/planner/expression/bound_window_expression.cpp"
-
-#include "src/planner/expression_binder.cpp"
 

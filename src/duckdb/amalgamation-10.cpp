@@ -1,3 +1,13 @@
+#include "src/main/relation/query_relation.cpp"
+
+#include "src/main/relation/read_csv_relation.cpp"
+
+#include "src/main/relation/setop_relation.cpp"
+
+#include "src/main/relation/subquery_relation.cpp"
+
+#include "src/main/relation/table_function_relation.cpp"
+
 #include "src/main/relation/table_relation.cpp"
 
 #include "src/main/relation/update_relation.cpp"
@@ -85,14 +95,4 @@
 #include "src/optimizer/rule/comparison_simplification.cpp"
 
 #include "src/optimizer/rule/conjunction_simplification.cpp"
-
-#include "src/optimizer/rule/constant_folding.cpp"
-
-#include "src/optimizer/rule/date_part_simplification.cpp"
-
-#include "src/optimizer/rule/distributivity.cpp"
-
-#include "src/optimizer/rule/empty_needle_removal.cpp"
-
-#include "src/optimizer/rule/enum_comparison.cpp"
 
