@@ -1,3 +1,5 @@
+#include "src/planner/binder/query_node/plan_setop.cpp"
+
 #include "src/planner/binder/query_node/plan_subquery.cpp"
 
 #include "src/planner/binder/statement/bind_call.cpp"
@@ -93,6 +95,4 @@
 #include "src/planner/expression/bound_function_expression.cpp"
 
 #include "src/planner/expression/bound_operator_expression.cpp"
-
-#include "src/planner/expression/bound_parameter_expression.cpp"
 

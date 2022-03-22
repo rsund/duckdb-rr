@@ -1,3 +1,5 @@
+#include "src/planner/expression/bound_parameter_expression.cpp"
+
 #include "src/planner/expression/bound_reference_expression.cpp"
 
 #include "src/planner/expression/bound_subquery_expression.cpp"
@@ -93,6 +95,4 @@
 #include "src/planner/subquery/rewrite_correlated_expressions.cpp"
 
 #include "src/planner/table_binding.cpp"
-
-#include "src/planner/table_filter.cpp"
 

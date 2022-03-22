@@ -1,3 +1,5 @@
+#include "src/function/table/table_scan.cpp"
+
 #include "src/function/table/unnest.cpp"
 
 #include "src/function/table/version/pragma_version.cpp"
@@ -93,6 +95,4 @@
 #include "src/main/relation/limit_relation.cpp"
 
 #include "src/main/relation/order_relation.cpp"
-
-#include "src/main/relation/projection_relation.cpp"
 

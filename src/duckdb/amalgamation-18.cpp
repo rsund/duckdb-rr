@@ -1,3 +1,5 @@
+#include "src/transaction/commit_state.cpp"
+
 #include "src/transaction/rollback_state.cpp"
 
 #include "src/transaction/transaction.cpp"

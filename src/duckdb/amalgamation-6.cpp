@@ -1,3 +1,5 @@
+#include "src/function/aggregate/distributive/bitagg.cpp"
+
 #include "src/function/aggregate/distributive/bool.cpp"
 
 #include "src/function/aggregate/distributive/count.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/scalar/date/to_interval.cpp"
 
 #include "src/function/scalar/date_functions.cpp"
-
-#include "src/function/scalar/enum/enum_functions_implementation.cpp"
 

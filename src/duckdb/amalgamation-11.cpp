@@ -1,3 +1,5 @@
+#include "src/optimizer/rule/conjunction_simplification.cpp"
+
 #include "src/optimizer/rule/constant_folding.cpp"
 
 #include "src/optimizer/rule/date_part_simplification.cpp"
@@ -93,6 +95,4 @@
 #include "src/parser/constraints/not_null_constraint.cpp"
 
 #include "src/parser/constraints/unique_constraint.cpp"
-
-#include "src/parser/expression/between_expression.cpp"
 

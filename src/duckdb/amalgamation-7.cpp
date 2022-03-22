@@ -1,3 +1,5 @@
+#include "src/function/scalar/enum/enum_functions_implementation.cpp"
+
 #include "src/function/scalar/enum_functions.cpp"
 
 #include "src/function/scalar/generic/alias.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/scalar/string/nfc_normalize.cpp"
 
 #include "src/function/scalar/string/pad.cpp"
-
-#include "src/function/scalar/string/prefix.cpp"
 

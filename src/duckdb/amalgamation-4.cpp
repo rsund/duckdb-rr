@@ -24,6 +24,8 @@
 
 #include "src/execution/operator/join/physical_hash_join.cpp"
 
+#include "src/execution/operator/join/physical_iejoin.cpp"
+
 #include "src/execution/operator/join/physical_index_join.cpp"
 
 #include "src/execution/operator/join/physical_join.cpp"
@@ -93,6 +95,4 @@
 #include "src/execution/perfect_aggregate_hashtable.cpp"
 
 #include "src/execution/physical_operator.cpp"
-
-#include "src/execution/physical_plan/plan_aggregate.cpp"
 

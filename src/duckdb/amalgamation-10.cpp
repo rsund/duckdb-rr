@@ -1,3 +1,5 @@
+#include "src/main/relation/projection_relation.cpp"
+
 #include "src/main/relation/query_relation.cpp"
 
 #include "src/main/relation/read_csv_relation.cpp"
@@ -93,6 +95,4 @@
 #include "src/optimizer/rule/case_simplification.cpp"
 
 #include "src/optimizer/rule/comparison_simplification.cpp"
-
-#include "src/optimizer/rule/conjunction_simplification.cpp"
 

@@ -1,3 +1,5 @@
+#include "src/parser/expression/between_expression.cpp"
+
 #include "src/parser/expression/case_expression.cpp"
 
 #include "src/parser/expression/cast_expression.cpp"
@@ -93,6 +95,4 @@
 #include "src/parser/statement/transaction_statement.cpp"
 
 #include "src/parser/statement/update_statement.cpp"
-
-#include "src/parser/statement/vacuum_statement.cpp"
 

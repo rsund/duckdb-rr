@@ -1,3 +1,5 @@
+#include "src/planner/table_filter.cpp"
+
 #include "src/storage/block.cpp"
 
 #include "src/storage/buffer/buffer_handle.cpp"
@@ -93,6 +95,4 @@
 #include "src/storage/write_ahead_log.cpp"
 
 #include "src/transaction/cleanup_state.cpp"
-
-#include "src/transaction/commit_state.cpp"
 

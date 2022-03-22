@@ -1,3 +1,5 @@
+#include "src/function/scalar/string/prefix.cpp"
+
 #include "src/function/scalar/string/printf.cpp"
 
 #include "src/function/scalar/string/regexp.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/table/system/test_all_types.cpp"
 
 #include "src/function/table/system_functions.cpp"
-
-#include "src/function/table/table_scan.cpp"
 

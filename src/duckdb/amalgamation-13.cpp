@@ -1,3 +1,5 @@
+#include "src/parser/statement/vacuum_statement.cpp"
+
 #include "src/parser/tableref.cpp"
 
 #include "src/parser/tableref/basetableref.cpp"
@@ -93,6 +95,4 @@
 #include "src/parser/transform/statement/transform_delete.cpp"
 
 #include "src/parser/transform/statement/transform_drop.cpp"
-
-#include "src/parser/transform/statement/transform_explain.cpp"
 
