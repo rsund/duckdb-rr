@@ -1,3 +1,9 @@
+#include "src/planner/subquery/has_correlated_expressions.cpp"
+
+#include "src/planner/subquery/rewrite_correlated_expressions.cpp"
+
+#include "src/planner/table_binding.cpp"
+
 #include "src/planner/table_filter.cpp"
 
 #include "src/storage/block.cpp"
@@ -89,10 +95,4 @@
 #include "src/storage/table/update_segment.cpp"
 
 #include "src/storage/table/validity_column_data.cpp"
-
-#include "src/storage/wal_replay.cpp"
-
-#include "src/storage/write_ahead_log.cpp"
-
-#include "src/transaction/cleanup_state.cpp"
 

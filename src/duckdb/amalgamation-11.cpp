@@ -1,3 +1,7 @@
+#include "src/optimizer/rule/case_simplification.cpp"
+
+#include "src/optimizer/rule/comparison_simplification.cpp"
+
 #include "src/optimizer/rule/conjunction_simplification.cpp"
 
 #include "src/optimizer/rule/constant_folding.cpp"
@@ -91,8 +95,4 @@
 #include "src/parser/constraints/check_constraint.cpp"
 
 #include "src/parser/constraints/foreign_key_constraint.cpp"
-
-#include "src/parser/constraints/not_null_constraint.cpp"
-
-#include "src/parser/constraints/unique_constraint.cpp"
 

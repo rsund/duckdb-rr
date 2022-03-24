@@ -1,3 +1,7 @@
+#include "src/parser/statement/transaction_statement.cpp"
+
+#include "src/parser/statement/update_statement.cpp"
+
 #include "src/parser/statement/vacuum_statement.cpp"
 
 #include "src/parser/tableref.cpp"
@@ -91,8 +95,4 @@
 #include "src/parser/transform/statement/transform_create_table_as.cpp"
 
 #include "src/parser/transform/statement/transform_create_view.cpp"
-
-#include "src/parser/transform/statement/transform_delete.cpp"
-
-#include "src/parser/transform/statement/transform_drop.cpp"
 

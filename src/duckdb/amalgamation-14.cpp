@@ -1,3 +1,7 @@
+#include "src/parser/transform/statement/transform_delete.cpp"
+
+#include "src/parser/transform/statement/transform_drop.cpp"
+
 #include "src/parser/transform/statement/transform_explain.cpp"
 
 #include "src/parser/transform/statement/transform_export.cpp"
@@ -90,9 +94,5 @@
 
 #include "src/planner/binder/query_node/bind_setop_node.cpp"
 
-#include "src/planner/binder/query_node/plan_query_node.cpp"
-
-#include "src/planner/binder/query_node/plan_recursive_cte_node.cpp"
-
-#include "src/planner/binder/query_node/plan_select_node.cpp"
+#include "src/planner/binder/query_node/bind_table_macro_node.cpp"
 

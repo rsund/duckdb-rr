@@ -1,3 +1,7 @@
+#include "src/parser/constraints/not_null_constraint.cpp"
+
+#include "src/parser/constraints/unique_constraint.cpp"
+
 #include "src/parser/expression/between_expression.cpp"
 
 #include "src/parser/expression/case_expression.cpp"
@@ -91,8 +95,4 @@
 #include "src/parser/statement/set_statement.cpp"
 
 #include "src/parser/statement/show_statement.cpp"
-
-#include "src/parser/statement/transaction_statement.cpp"
-
-#include "src/parser/statement/update_statement.cpp"
 

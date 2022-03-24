@@ -1,3 +1,5 @@
+#include "src/function/table/system_functions.cpp"
+
 #include "src/function/table/table_scan.cpp"
 
 #include "src/function/table/unnest.cpp"
@@ -5,6 +7,8 @@
 #include "src/function/table/version/pragma_version.cpp"
 
 #include "src/function/table_function.cpp"
+
+#include "src/function/table_macro_function.cpp"
 
 #include "src/function/udf_function.cpp"
 
@@ -91,8 +95,4 @@
 #include "src/main/relation/insert_relation.cpp"
 
 #include "src/main/relation/join_relation.cpp"
-
-#include "src/main/relation/limit_relation.cpp"
-
-#include "src/main/relation/order_relation.cpp"
 

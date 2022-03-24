@@ -1,3 +1,7 @@
+#include "src/main/relation/limit_relation.cpp"
+
+#include "src/main/relation/order_relation.cpp"
+
 #include "src/main/relation/projection_relation.cpp"
 
 #include "src/main/relation/query_relation.cpp"
@@ -91,8 +95,4 @@
 #include "src/optimizer/remove_unused_columns.cpp"
 
 #include "src/optimizer/rule/arithmetic_simplification.cpp"
-
-#include "src/optimizer/rule/case_simplification.cpp"
-
-#include "src/optimizer/rule/comparison_simplification.cpp"
 

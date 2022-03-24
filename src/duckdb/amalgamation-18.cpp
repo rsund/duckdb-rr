@@ -1,3 +1,9 @@
+#include "src/storage/wal_replay.cpp"
+
+#include "src/storage/write_ahead_log.cpp"
+
+#include "src/transaction/cleanup_state.cpp"
+
 #include "src/transaction/commit_state.cpp"
 
 #include "src/transaction/rollback_state.cpp"

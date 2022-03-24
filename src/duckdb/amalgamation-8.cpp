@@ -36,6 +36,8 @@
 
 #include "src/function/scalar_function.cpp"
 
+#include "src/function/scalar_macro_function.cpp"
+
 #include "src/function/table/arrow.cpp"
 
 #include "src/function/table/checkpoint.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/table/system/pragma_table_info.cpp"
 
 #include "src/function/table/system/test_all_types.cpp"
-
-#include "src/function/table/system_functions.cpp"
 

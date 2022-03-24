@@ -1,3 +1,9 @@
+#include "src/planner/expression/bound_constant_expression.cpp"
+
+#include "src/planner/expression/bound_function_expression.cpp"
+
+#include "src/planner/expression/bound_operator_expression.cpp"
+
 #include "src/planner/expression/bound_parameter_expression.cpp"
 
 #include "src/planner/expression/bound_reference_expression.cpp"
@@ -89,10 +95,4 @@
 #include "src/planner/pragma_handler.cpp"
 
 #include "src/planner/subquery/flatten_dependent_join.cpp"
-
-#include "src/planner/subquery/has_correlated_expressions.cpp"
-
-#include "src/planner/subquery/rewrite_correlated_expressions.cpp"
-
-#include "src/planner/table_binding.cpp"
 
