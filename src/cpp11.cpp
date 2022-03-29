@@ -67,14 +67,6 @@ extern "C" SEXP _duckdb_rapi_unregister_arrow(SEXP conn, SEXP name) {
     return R_NilValue;
   END_CPP11
 }
-// register.cpp
-void rapi_register_parquet(duckdb::conn_eptr_t conn, std::string name, cpp11::list path, bool binary_as_string, bool replace, bool temporary);
-extern "C" SEXP _duckdb_rapi_register_parquet(SEXP conn, SEXP name, SEXP path, SEXP binary_as_string, SEXP replace, SEXP temporary) {
-  BEGIN_CPP11
-    rapi_register_parquet(cpp11::as_cpp<cpp11::decay_t<duckdb::conn_eptr_t>>(conn), cpp11::as_cpp<cpp11::decay_t<std::string>>(name), cpp11::as_cpp<cpp11::decay_t<cpp11::list>>(path), cpp11::as_cpp<cpp11::decay_t<bool>>(binary_as_string), cpp11::as_cpp<cpp11::decay_t<bool>>(replace), cpp11::as_cpp<cpp11::decay_t<bool>>(temporary));
-    return R_NilValue;
-  END_CPP11
-}
 // statement.cpp
 void rapi_release(duckdb::stmt_eptr_t stmt);
 extern "C" SEXP _duckdb_rapi_release(SEXP stmt) {
@@ -138,7 +130,6 @@ static const R_CallMethodDef CallEntries[] = {
     {"_duckdb_rapi_record_batch",     (DL_FUNC) &_duckdb_rapi_record_batch,     2},
     {"_duckdb_rapi_register_arrow",   (DL_FUNC) &_duckdb_rapi_register_arrow,   4},
     {"_duckdb_rapi_register_df",      (DL_FUNC) &_duckdb_rapi_register_df,      3},
-    {"_duckdb_rapi_register_parquet", (DL_FUNC) &_duckdb_rapi_register_parquet, 6},
     {"_duckdb_rapi_release",          (DL_FUNC) &_duckdb_rapi_release,          1},
     {"_duckdb_rapi_shutdown",         (DL_FUNC) &_duckdb_rapi_shutdown,         1},
     {"_duckdb_rapi_startup",          (DL_FUNC) &_duckdb_rapi_startup,          3},

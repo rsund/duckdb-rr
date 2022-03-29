@@ -32,10 +32,6 @@ rapi_unregister_arrow <- function(conn, name) {
   invisible(.Call(`_duckdb_rapi_unregister_arrow`, conn, name))
 }
 
-rapi_register_parquet <- function(conn, name, path, binary_as_string, replace, temporary) {
-  invisible(.Call(`_duckdb_rapi_register_parquet`, conn, name, path, binary_as_string, replace, temporary))
-}
-
 rapi_release <- function(stmt) {
   invisible(.Call(`_duckdb_rapi_release`, stmt))
 }

@@ -254,35 +254,3 @@ unique_ptr<TableFunctionRef> duckdb::ArrowScanReplacement(ClientContext &context
 	}
 	static_cast<cpp11::sexp>(conn->db_eptr).attr("_registered_arrow_" + name) = R_NilValue;
 }
-
-[[cpp11::register]] void rapi_register_parquet(duckdb::conn_eptr_t conn, std::string name, cpp11::list path,
-                                               bool binary_as_string, bool replace, bool temporary) {
-	if (!conn || !conn->conn) {
-		cpp11::stop("rapi_register_parquet: Invalid connection");
-	}
-	if (name.empty()) {
-		cpp11::stop("rapi_register_parquet: Name cannot be empty");
-	}
-
-	// R-list as handled by cpp11 -> C++11 string vector
-	vector<Value> paths;
-	for (auto it = 0; it < path.size(); ++it) {
-		std::string val = cpp11::as_cpp<std::string>(path[it]);
-		paths.emplace_back(val);
-	}
-
-	// C++11 string vector .> DuckDB LIST
-	Value pathlist;
-	pathlist = Value::LIST(paths);
-
-	// DuckDB LIST -> parameter vector suitable for TableFunction
-	vector<Value> pp;
-	pp.emplace_back(pathlist);
-
-	named_parameter_map_t named_parameters({{"binary_as_string", Value::BOOLEAN(binary_as_string)}});
-	try {
-		conn->conn->TableFunction("parquet_scan", pp, named_parameters)->CreateView(name, replace, temporary);
-	} catch (std::exception &e) {
-		cpp11::stop("rapi_register_parquet: Failed to register parquet: %s", e.what());
-	}
-}
