@@ -1,3 +1,5 @@
+#include "src/function/scalar/string/pad.cpp"
+
 #include "src/function/scalar/string/prefix.cpp"
 
 #include "src/function/scalar/string/printf.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/table/system/pragma_storage_info.cpp"
 
 #include "src/function/table/system/pragma_table_info.cpp"
-
-#include "src/function/table/system/test_all_types.cpp"
 

@@ -24,6 +24,8 @@
 
 #include "src/function/scalar/list/flatten.cpp"
 
+#include "src/function/scalar/list/list_aggregates.cpp"
+
 #include "src/function/scalar/list/list_concat.cpp"
 
 #include "src/function/scalar/list/list_extract.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/scalar/string/mismatches.cpp"
 
 #include "src/function/scalar/string/nfc_normalize.cpp"
-
-#include "src/function/scalar/string/pad.cpp"
 

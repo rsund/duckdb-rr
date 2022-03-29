@@ -1,3 +1,5 @@
+#include "src/storage/table/validity_column_data.cpp"
+
 #include "src/storage/wal_replay.cpp"
 
 #include "src/storage/write_ahead_log.cpp"

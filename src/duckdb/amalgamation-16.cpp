@@ -1,3 +1,5 @@
+#include "src/planner/expression/bound_conjunction_expression.cpp"
+
 #include "src/planner/expression/bound_constant_expression.cpp"
 
 #include "src/planner/expression/bound_function_expression.cpp"
@@ -93,6 +95,4 @@
 #include "src/planner/planner.cpp"
 
 #include "src/planner/pragma_handler.cpp"
-
-#include "src/planner/subquery/flatten_dependent_join.cpp"
 
