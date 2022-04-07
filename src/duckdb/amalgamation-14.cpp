@@ -1,3 +1,5 @@
+#include "src/parser/transform/statement/transform_create_table_as.cpp"
+
 #include "src/parser/transform/statement/transform_create_view.cpp"
 
 #include "src/parser/transform/statement/transform_delete.cpp"
@@ -93,6 +95,4 @@
 #include "src/planner/binder/query_node/bind_recursive_cte_node.cpp"
 
 #include "src/planner/binder/query_node/bind_select_node.cpp"
-
-#include "src/planner/binder/query_node/bind_setop_node.cpp"
 

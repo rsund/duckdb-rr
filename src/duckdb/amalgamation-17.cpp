@@ -1,3 +1,5 @@
+#include "src/planner/pragma_handler.cpp"
+
 #include "src/planner/subquery/flatten_dependent_join.cpp"
 
 #include "src/planner/subquery/has_correlated_expressions.cpp"
@@ -93,6 +95,4 @@
 #include "src/storage/table/standard_column_data.cpp"
 
 #include "src/storage/table/struct_column_data.cpp"
-
-#include "src/storage/table/update_segment.cpp"
 

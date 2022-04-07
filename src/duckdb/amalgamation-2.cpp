@@ -2,6 +2,8 @@
 
 #include "src/common/radix.cpp"
 
+#include "src/common/re2_regex.cpp"
+
 #include "src/common/row_operations/row_aggregate.cpp"
 
 #include "src/common/row_operations/row_external.cpp"
@@ -93,6 +95,4 @@
 #include "src/common/types/vector_constants.cpp"
 
 #include "src/common/value_operations/comparison_operations.cpp"
-
-#include "src/common/vector_operations/boolean_operators.cpp"
 

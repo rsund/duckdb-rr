@@ -1,3 +1,5 @@
+#include "src/optimizer/remove_unused_columns.cpp"
+
 #include "src/optimizer/rule/arithmetic_simplification.cpp"
 
 #include "src/optimizer/rule/case_simplification.cpp"
@@ -93,6 +95,4 @@
 #include "src/parser/column_definition.cpp"
 
 #include "src/parser/constraint.cpp"
-
-#include "src/parser/constraints/check_constraint.cpp"
 

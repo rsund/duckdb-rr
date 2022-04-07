@@ -1,3 +1,5 @@
+#include "src/execution/operator/helper/physical_load.cpp"
+
 #include "src/execution/operator/helper/physical_pragma.cpp"
 
 #include "src/execution/operator/helper/physical_prepare.cpp"
@@ -93,6 +95,4 @@
 #include "src/execution/partitionable_hashtable.cpp"
 
 #include "src/execution/perfect_aggregate_hashtable.cpp"
-
-#include "src/execution/physical_operator.cpp"
 

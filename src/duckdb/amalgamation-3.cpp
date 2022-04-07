@@ -1,3 +1,5 @@
+#include "src/common/vector_operations/boolean_operators.cpp"
+
 #include "src/common/vector_operations/comparison_operators.cpp"
 
 #include "src/common/vector_operations/generators.cpp"
@@ -93,6 +95,4 @@
 #include "src/execution/operator/helper/physical_limit.cpp"
 
 #include "src/execution/operator/helper/physical_limit_percent.cpp"
-
-#include "src/execution/operator/helper/physical_load.cpp"
 

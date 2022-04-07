@@ -1,3 +1,5 @@
+#include "src/storage/table/update_segment.cpp"
+
 #include "src/storage/table/validity_column_data.cpp"
 
 #include "src/storage/wal_replay.cpp"

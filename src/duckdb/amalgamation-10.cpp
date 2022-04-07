@@ -1,3 +1,5 @@
+#include "src/main/relation/insert_relation.cpp"
+
 #include "src/main/relation/join_relation.cpp"
 
 #include "src/main/relation/limit_relation.cpp"
@@ -93,6 +95,4 @@
 #include "src/optimizer/pushdown/pushdown_single_join.cpp"
 
 #include "src/optimizer/regex_range_filter.cpp"
-
-#include "src/optimizer/remove_unused_columns.cpp"
 

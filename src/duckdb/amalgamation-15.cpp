@@ -1,3 +1,5 @@
+#include "src/planner/binder/query_node/bind_setop_node.cpp"
+
 #include "src/planner/binder/query_node/bind_table_macro_node.cpp"
 
 #include "src/planner/binder/query_node/plan_query_node.cpp"
@@ -93,6 +95,4 @@
 #include "src/planner/expression/bound_cast_expression.cpp"
 
 #include "src/planner/expression/bound_columnref_expression.cpp"
-
-#include "src/planner/expression/bound_comparison_expression.cpp"
 

@@ -1,11 +1,13 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.3.3-dev1441"
+#define DUCKDB_VERSION "0.3.3-dev1495"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "eb19f35fa"
+#define DUCKDB_SOURCE_ID "b6901375c"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
+
+#include <cstdint>
 
 namespace duckdb {
 
@@ -57,7 +59,15 @@ const char *DuckDB::LibraryVersion() {
 
 string DuckDB::Platform() {
 	string os = "linux";
+#if INTPTR_MAX == INT64_MAX
 	string arch = "amd64";
+#elif INTPTR_MAX == INT32_MAX
+	string arch = "i686";
+#else
+#error Unknown pointer size or missing size macros!
+#endif
+	string postfix = "";
+
 #ifdef _WIN32
 	os = "windows";
 #elif defined(__APPLE__)
@@ -66,7 +76,14 @@ string DuckDB::Platform() {
 #if defined(__aarch64__) || defined(__ARM_ARCH_ISA_A64)
 	arch = "arm64";
 #endif
-	return os + "_" + arch;
+
+#if defined(__GNUC__) && __GNUC__ == 4
+	if (os == "linux") {
+		postfix = "_gcc4";
+	}
+#endif
+
+	return os + "_" + arch + postfix;
 }
 
 } // namespace duckdb

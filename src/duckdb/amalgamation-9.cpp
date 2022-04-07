@@ -1,3 +1,5 @@
+#include "src/function/table/system/pragma_table_info.cpp"
+
 #include "src/function/table/system/test_all_types.cpp"
 
 #include "src/function/table/system_functions.cpp"
@@ -93,6 +95,4 @@
 #include "src/main/relation/explain_relation.cpp"
 
 #include "src/main/relation/filter_relation.cpp"
-
-#include "src/main/relation/insert_relation.cpp"
 

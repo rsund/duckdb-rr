@@ -1,3 +1,5 @@
+#include "src/parser/constraints/check_constraint.cpp"
+
 #include "src/parser/constraints/foreign_key_constraint.cpp"
 
 #include "src/parser/constraints/not_null_constraint.cpp"
@@ -93,6 +95,4 @@
 #include "src/parser/statement/relation_statement.cpp"
 
 #include "src/parser/statement/select_statement.cpp"
-
-#include "src/parser/statement/set_statement.cpp"
 
