@@ -1,8 +1,8 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.3.3-dev1504"
+#define DUCKDB_VERSION "0.3.4-dev2"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "31db2bada"
+#define DUCKDB_SOURCE_ID "7ce72b708"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
@@ -77,7 +77,7 @@ string DuckDB::Platform() {
 	arch = "arm64";
 #endif
 
-#if defined(__GNUC__) && __GNUC__ == 4
+#if !defined(_GLIBCXX_USE_CXX11_ABI) || _GLIBCXX_USE_CXX11_ABI == 0
 	if (os == "linux") {
 		postfix = "_gcc4";
 	}
