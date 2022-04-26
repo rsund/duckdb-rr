@@ -1,3 +1,7 @@
+#include "src/planner/expression/bound_cast_expression.cpp"
+
+#include "src/planner/expression/bound_columnref_expression.cpp"
+
 #include "src/planner/expression/bound_comparison_expression.cpp"
 
 #include "src/planner/expression/bound_conjunction_expression.cpp"
@@ -91,8 +95,4 @@
 #include "src/planner/operator/logical_sample.cpp"
 
 #include "src/planner/operator/logical_unnest.cpp"
-
-#include "src/planner/operator/logical_window.cpp"
-
-#include "src/planner/planner.cpp"
 

@@ -1,3 +1,7 @@
+#include "src/planner/operator/logical_window.cpp"
+
+#include "src/planner/planner.cpp"
+
 #include "src/planner/pragma_handler.cpp"
 
 #include "src/planner/subquery/flatten_dependent_join.cpp"
@@ -91,8 +95,4 @@
 #include "src/storage/table/row_group.cpp"
 
 #include "src/storage/table/segment_tree.cpp"
-
-#include "src/storage/table/standard_column_data.cpp"
-
-#include "src/storage/table/struct_column_data.cpp"
 

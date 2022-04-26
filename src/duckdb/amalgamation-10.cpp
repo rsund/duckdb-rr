@@ -1,3 +1,7 @@
+#include "src/main/relation/explain_relation.cpp"
+
+#include "src/main/relation/filter_relation.cpp"
+
 #include "src/main/relation/insert_relation.cpp"
 
 #include "src/main/relation/join_relation.cpp"
@@ -91,8 +95,4 @@
 #include "src/optimizer/pushdown/pushdown_projection.cpp"
 
 #include "src/optimizer/pushdown/pushdown_set_operation.cpp"
-
-#include "src/optimizer/pushdown/pushdown_single_join.cpp"
-
-#include "src/optimizer/regex_range_filter.cpp"
 

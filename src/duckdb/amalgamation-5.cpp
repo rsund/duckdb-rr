@@ -1,3 +1,5 @@
+#include "src/execution/perfect_aggregate_hashtable.cpp"
+
 #include "src/execution/physical_operator.cpp"
 
 #include "src/execution/physical_plan/plan_aggregate.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/aggregate/algebraic/stddev.cpp"
 
 #include "src/function/aggregate/algebraic_functions.cpp"
-
-#include "src/function/aggregate/distributive/approx_count.cpp"
 

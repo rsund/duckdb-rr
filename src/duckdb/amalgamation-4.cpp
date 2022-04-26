@@ -36,6 +36,8 @@
 
 #include "src/execution/operator/join/physical_piecewise_merge_join.cpp"
 
+#include "src/execution/operator/join/physical_range_join.cpp"
+
 #include "src/execution/operator/order/physical_order.cpp"
 
 #include "src/execution/operator/order/physical_top_n.cpp"
@@ -93,6 +95,4 @@
 #include "src/execution/operator/set/physical_union.cpp"
 
 #include "src/execution/partitionable_hashtable.cpp"
-
-#include "src/execution/perfect_aggregate_hashtable.cpp"
 

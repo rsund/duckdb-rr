@@ -1,3 +1,7 @@
+#include "src/function/scalar/string/md5.cpp"
+
+#include "src/function/scalar/string/mismatches.cpp"
+
 #include "src/function/scalar/string/nfc_normalize.cpp"
 
 #include "src/function/scalar/string/pad.cpp"
@@ -91,8 +95,4 @@
 #include "src/function/table/system/pragma_database_list.cpp"
 
 #include "src/function/table/system/pragma_database_size.cpp"
-
-#include "src/function/table/system/pragma_functions.cpp"
-
-#include "src/function/table/system/pragma_storage_info.cpp"
 

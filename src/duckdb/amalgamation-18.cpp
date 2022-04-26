@@ -1,3 +1,7 @@
+#include "src/storage/table/standard_column_data.cpp"
+
+#include "src/storage/table/struct_column_data.cpp"
+
 #include "src/storage/table/update_segment.cpp"
 
 #include "src/storage/table/validity_column_data.cpp"

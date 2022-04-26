@@ -1,3 +1,5 @@
+#include "src/function/scalar/date/to_interval.cpp"
+
 #include "src/function/scalar/date_functions.cpp"
 
 #include "src/function/scalar/enum/enum_functions_implementation.cpp"
@@ -31,6 +33,8 @@
 #include "src/function/scalar/list/list_concat.cpp"
 
 #include "src/function/scalar/list/list_extract.cpp"
+
+#include "src/function/scalar/list/list_sort.cpp"
 
 #include "src/function/scalar/list/list_value.cpp"
 
@@ -91,8 +95,4 @@
 #include "src/function/scalar/string/levenshtein.cpp"
 
 #include "src/function/scalar/string/like.cpp"
-
-#include "src/function/scalar/string/md5.cpp"
-
-#include "src/function/scalar/string/mismatches.cpp"
 

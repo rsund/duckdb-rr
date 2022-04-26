@@ -1,3 +1,7 @@
+#include "src/optimizer/pushdown/pushdown_single_join.cpp"
+
+#include "src/optimizer/regex_range_filter.cpp"
+
 #include "src/optimizer/remove_unused_columns.cpp"
 
 #include "src/optimizer/rule/arithmetic_simplification.cpp"
@@ -91,8 +95,4 @@
 #include "src/parallel/thread_context.cpp"
 
 #include "src/parser/base_expression.cpp"
-
-#include "src/parser/column_definition.cpp"
-
-#include "src/parser/constraint.cpp"
 

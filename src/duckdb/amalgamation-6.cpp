@@ -1,3 +1,5 @@
+#include "src/function/aggregate/distributive/approx_count.cpp"
+
 #include "src/function/aggregate/distributive/arg_min_max.cpp"
 
 #include "src/function/aggregate/distributive/bitagg.cpp"
@@ -93,6 +95,4 @@
 #include "src/function/scalar/date/make_date.cpp"
 
 #include "src/function/scalar/date/strftime.cpp"
-
-#include "src/function/scalar/date/to_interval.cpp"
 

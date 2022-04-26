@@ -1,3 +1,7 @@
+#include "src/parser/statement/relation_statement.cpp"
+
+#include "src/parser/statement/select_statement.cpp"
+
 #include "src/parser/statement/set_statement.cpp"
 
 #include "src/parser/statement/show_statement.cpp"
@@ -91,8 +95,4 @@
 #include "src/parser/transform/statement/transform_create_index.cpp"
 
 #include "src/parser/transform/statement/transform_create_schema.cpp"
-
-#include "src/parser/transform/statement/transform_create_sequence.cpp"
-
-#include "src/parser/transform/statement/transform_create_table.cpp"
 
