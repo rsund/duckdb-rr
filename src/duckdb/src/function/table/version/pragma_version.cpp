@@ -1,8 +1,8 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.3.5-dev230"
+#define DUCKDB_VERSION "0.3.5-dev250"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "991d06596"
+#define DUCKDB_SOURCE_ID "91d3928b6"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
@@ -33,7 +33,7 @@ static unique_ptr<FunctionOperatorData> PragmaVersionInit(ClientContext &context
 }
 
 static void PragmaVersionFunction(ClientContext &context, const FunctionData *bind_data,
-                                  FunctionOperatorData *operator_state, DataChunk *input, DataChunk &output) {
+                                  FunctionOperatorData *operator_state, DataChunk &output) {
 	auto &data = (PragmaVersionData &)*operator_state;
 	if (data.finished) {
 		// finished returning values

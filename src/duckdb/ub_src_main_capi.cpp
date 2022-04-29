@@ -26,5 +26,7 @@
 
 #include "src/main/capi/table_function-c.cpp"
 
+#include "src/main/capi/threading-c.cpp"
+
 #include "src/main/capi/value-c.cpp"
 
