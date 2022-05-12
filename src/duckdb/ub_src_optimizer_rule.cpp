@@ -16,6 +16,8 @@
 
 #include "src/optimizer/rule/enum_comparison.cpp"
 
+#include "src/optimizer/rule/equal_or_null_simplification.cpp"
+
 #include "src/optimizer/rule/move_constants.cpp"
 
 #include "src/optimizer/rule/like_optimizations.cpp"
