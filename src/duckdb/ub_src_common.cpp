@@ -4,8 +4,6 @@
 
 #include "src/common/assert.cpp"
 
-#include "src/common/radix.cpp"
-
 #include "src/common/compressed_file_system.cpp"
 
 #include "src/common/constants.cpp"
