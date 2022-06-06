@@ -1,8 +1,8 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.3.5-dev725"
+#define DUCKDB_VERSION "0.3.5-dev746"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "463e45ba9"
+#define DUCKDB_SOURCE_ID "2507243a2"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
@@ -11,9 +11,10 @@
 
 namespace duckdb {
 
-struct PragmaVersionData : public FunctionOperatorData {
+struct PragmaVersionData : public GlobalTableFunctionState {
 	PragmaVersionData() : finished(false) {
 	}
+
 	bool finished;
 };
 
@@ -26,15 +27,12 @@ static unique_ptr<FunctionData> PragmaVersionBind(ClientContext &context, TableF
 	return nullptr;
 }
 
-static unique_ptr<FunctionOperatorData> PragmaVersionInit(ClientContext &context, const FunctionData *bind_data,
-                                                          const vector<column_t> &column_ids,
-                                                          TableFilterCollection *filters) {
+static unique_ptr<GlobalTableFunctionState> PragmaVersionInit(ClientContext &context, TableFunctionInitInput &input) {
 	return make_unique<PragmaVersionData>();
 }
 
-static void PragmaVersionFunction(ClientContext &context, const FunctionData *bind_data,
-                                  FunctionOperatorData *operator_state, DataChunk &output) {
-	auto &data = (PragmaVersionData &)*operator_state;
+static void PragmaVersionFunction(ClientContext &context, TableFunctionInput &data_p, DataChunk &output) {
+	auto &data = (PragmaVersionData &)*data_p.global_state;
 	if (data.finished) {
 		// finished returning values
 		return;
@@ -46,7 +44,10 @@ static void PragmaVersionFunction(ClientContext &context, const FunctionData *bi
 }
 
 void PragmaVersion::RegisterFunction(BuiltinFunctions &set) {
-	set.AddFunction(TableFunction("pragma_version", {}, PragmaVersionFunction, PragmaVersionBind, PragmaVersionInit));
+	TableFunction pragma_version("pragma_version", {}, PragmaVersionFunction);
+	pragma_version.bind = PragmaVersionBind;
+	pragma_version.init_global = PragmaVersionInit;
+	set.AddFunction(pragma_version);
 }
 
 const char *DuckDB::SourceID() {

@@ -1,5 +1,7 @@
 #include "src/function/table/arrow.cpp"
 
+#include "src/function/table/arrow_conversion.cpp"
+
 #include "src/function/table/checkpoint.cpp"
 
 #include "src/function/table/glob.cpp"
