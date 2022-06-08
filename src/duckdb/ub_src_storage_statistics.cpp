@@ -1,5 +1,7 @@
 #include "src/storage/statistics/base_statistics.cpp"
 
+#include "src/storage/statistics/column_statistics.cpp"
+
 #include "src/storage/statistics/distinct_statistics.cpp"
 
 #include "src/storage/statistics/list_statistics.cpp"
