@@ -24,3 +24,5 @@
 
 #include "src/optimizer/rule/in_clause_simplification_rule.cpp"
 
+#include "src/optimizer/rule/regex_optimizations.cpp"
+
