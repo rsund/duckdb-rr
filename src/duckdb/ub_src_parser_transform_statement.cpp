@@ -18,7 +18,7 @@
 
 #include "src/parser/transform/statement/transform_create_view.cpp"
 
-#include "src/parser/transform/statement/transform_create_enum.cpp"
+#include "src/parser/transform/statement/transform_create_type.cpp"
 
 #include "src/parser/transform/statement/transform_delete.cpp"
 
