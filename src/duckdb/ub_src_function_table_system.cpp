@@ -36,3 +36,5 @@
 
 #include "src/function/table/system/test_all_types.cpp"
 
+#include "src/function/table/system/test_vector_types.cpp"
+
