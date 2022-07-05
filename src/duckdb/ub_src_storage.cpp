@@ -1,3 +1,5 @@
+#include "src/storage/arena_allocator.cpp"
+
 #include "src/storage/buffer_manager.cpp"
 
 #include "src/storage/checkpoint_manager.cpp"
