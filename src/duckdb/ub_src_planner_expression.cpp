@@ -16,6 +16,8 @@
 
 #include "src/planner/expression/bound_function_expression.cpp"
 
+#include "src/planner/expression/bound_lambda_expression.cpp"
+
 #include "src/planner/expression/bound_operator_expression.cpp"
 
 #include "src/planner/expression/bound_parameter_expression.cpp"
