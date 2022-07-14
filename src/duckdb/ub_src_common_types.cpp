@@ -24,6 +24,8 @@
 
 #include "src/common/types/row_data_collection.cpp"
 
+#include "src/common/types/row_data_collection_scanner.cpp"
+
 #include "src/common/types/row_layout.cpp"
 
 #include "src/common/types/selection_vector.cpp"
