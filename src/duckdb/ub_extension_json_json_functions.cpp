@@ -2,6 +2,8 @@
 
 #include "extension/json/json_functions/json_extract.cpp"
 
+#include "extension/json/json_functions/json_merge_patch.cpp"
+
 #include "extension/json/json_functions/json_structure.cpp"
 
 #include "extension/json/json_functions/json_transform.cpp"
