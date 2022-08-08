@@ -1,7 +1,5 @@
 #include "src/common/allocator.cpp"
 
-#include "src/common/arrow_wrapper.cpp"
-
 #include "src/common/assert.cpp"
 
 #include "src/common/compressed_file_system.cpp"
