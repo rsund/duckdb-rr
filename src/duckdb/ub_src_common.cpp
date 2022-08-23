@@ -30,6 +30,8 @@
 
 #include "src/common/local_file_system.cpp"
 
+#include "src/common/preserved_error.cpp"
+
 #include "src/common/printer.cpp"
 
 #include "src/common/progress_bar.cpp"
