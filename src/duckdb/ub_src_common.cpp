@@ -36,6 +36,8 @@
 
 #include "src/common/progress_bar.cpp"
 
+#include "src/common/radix_partitioning.cpp"
+
 #include "src/common/re2_regex.cpp"
 
 #include "src/common/random_engine.cpp"
