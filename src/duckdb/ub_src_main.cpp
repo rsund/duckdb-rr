@@ -26,6 +26,8 @@
 
 #include "src/main/relation.cpp"
 
+#include "src/main/extension_prefix_opener.cpp"
+
 #include "src/main/query_profiler.cpp"
 
 #include "src/main/query_result.cpp"
