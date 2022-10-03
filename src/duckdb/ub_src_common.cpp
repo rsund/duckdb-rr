@@ -20,6 +20,8 @@
 
 #include "src/common/file_system.cpp"
 
+#include "src/common/fsst.cpp"
+
 #include "src/common/gzip_file_system.cpp"
 
 #include "src/common/hive_partitioning.cpp"
