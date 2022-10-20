@@ -14,5 +14,7 @@
 
 #include "src/storage/compression/bitpacking.cpp"
 
+#include "src/storage/compression/chimp.cpp"
+
 #include "src/storage/compression/fsst.cpp"
 
