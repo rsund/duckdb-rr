@@ -22,6 +22,8 @@
 
 #include "src/function/cast/time_casts.cpp"
 
+#include "src/function/cast/union_casts.cpp"
+
 #include "src/function/cast/uuid_casts.cpp"
 
 #include "src/function/cast/vector_cast_helpers.cpp"
