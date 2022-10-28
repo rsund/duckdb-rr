@@ -16,6 +16,8 @@
 
 #include "src/main/db_instance_cache.cpp"
 
+#include "src/main/error_manager.cpp"
+
 #include "src/main/extension.cpp"
 
 #include "src/main/materialized_query_result.cpp"
