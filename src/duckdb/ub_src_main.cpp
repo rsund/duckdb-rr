@@ -38,3 +38,5 @@
 
 #include "src/main/stream_query_result.cpp"
 
+#include "src/main/valid_checker.cpp"
+
