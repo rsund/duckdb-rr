@@ -14,6 +14,10 @@
 
 #include "src/common/types/column_data_consumer.cpp"
 
+#include "src/common/types/conflict_manager.cpp"
+
+#include "src/common/types/conflict_info.cpp"
+
 #include "src/common/types/data_chunk.cpp"
 
 #include "src/common/types/date.cpp"

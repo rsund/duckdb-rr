@@ -58,6 +58,8 @@
 
 #include "src/parser/transform/statement/transform_update.cpp"
 
+#include "src/parser/transform/statement/transform_upsert.cpp"
+
 #include "src/parser/transform/statement/transform_use.cpp"
 
 #include "src/parser/transform/statement/transform_create_sequence.cpp"
