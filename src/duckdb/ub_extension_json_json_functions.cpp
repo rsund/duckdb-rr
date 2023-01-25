@@ -16,3 +16,5 @@
 
 #include "extension/json/json_functions/json_valid.cpp"
 
+#include "extension/json/json_functions/read_json_objects.cpp"
+
