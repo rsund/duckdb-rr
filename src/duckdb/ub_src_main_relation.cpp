@@ -42,5 +42,7 @@
 
 #include "src/main/relation/view_relation.cpp"
 
+#include "src/main/relation/write_parquet_relation.cpp"
+
 #include "src/main/relation/write_csv_relation.cpp"
 
