@@ -3,14 +3,13 @@
 
 namespace duckdb {
 
-BoundCastInfo DefaultCasts::BlobCastSwitch(BindCastInput &input, const LogicalType &source, const LogicalType &target) {
+BoundCastInfo DefaultCasts::BitCastSwitch(BindCastInput &input, const LogicalType &source, const LogicalType &target) {
 	// now switch on the result type
 	switch (target.id()) {
 	case LogicalTypeId::VARCHAR:
-		// blob to varchar
-		return BoundCastInfo(&VectorCastHelpers::StringCast<string_t, duckdb::CastFromBlob>);
-	case LogicalTypeId::AGGREGATE_STATE:
-	case LogicalTypeId::BIT:
+		// bit to varchar
+		return BoundCastInfo(&VectorCastHelpers::StringCast<string_t, duckdb::CastFromBit>);
+	case LogicalTypeId::BLOB:
 		return DefaultCasts::ReinterpretCast;
 	default:
 		return DefaultCasts::TryVectorNullCast;

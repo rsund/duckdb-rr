@@ -1,5 +1,7 @@
 #include "src/common/types/batched_data_collection.cpp"
 
+#include "src/common/types/bit.cpp"
+
 #include "src/common/types/blob.cpp"
 
 #include "src/common/types/cast_helpers.cpp"
