@@ -1,6 +1,6 @@
 Package: duckdb
 Title: DBI Package for the DuckDB Database Management System
-Version: 0.6.2-2258
+Version: 0.6.2-2285
 Authors@R: 
     c(person(given = "Hannes",
              family = "Mühleisen",
@@ -50,7 +50,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2023-02-09 09:01:21 UTC; runner
+Packaged: 2023-02-09 16:15:44 UTC; runner
 Author: Hannes Mühleisen [aut, cre] (<https://orcid.org/0000-0001-8552-0029>),
   Mark Raasveldt [aut] (<https://orcid.org/0000-0001-5005-6844>),
   Stichting DuckDB Foundation [cph],
