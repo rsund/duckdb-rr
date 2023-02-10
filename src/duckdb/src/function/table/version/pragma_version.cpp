@@ -1,8 +1,8 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.6.2-dev2312"
+#define DUCKDB_VERSION "0.6.2-dev2340"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "ce70772ee4"
+#define DUCKDB_SOURCE_ID "c0907528a3"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
