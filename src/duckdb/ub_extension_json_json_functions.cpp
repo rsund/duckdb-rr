@@ -1,3 +1,5 @@
+#include "extension/json/json_functions/copy_json.cpp"
+
 #include "extension/json/json_functions/json_array_length.cpp"
 
 #include "extension/json/json_functions/json_contains.cpp"
