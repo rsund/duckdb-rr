@@ -30,6 +30,8 @@
 
 #include "src/main/relation/read_csv_relation.cpp"
 
+#include "src/main/relation/read_json_relation.cpp"
+
 #include "src/main/relation/setop_relation.cpp"
 
 #include "src/main/relation/subquery_relation.cpp"
