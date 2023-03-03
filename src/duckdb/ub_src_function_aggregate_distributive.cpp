@@ -2,6 +2,8 @@
 
 #include "src/function/aggregate/distributive/bitagg.cpp"
 
+#include "src/function/aggregate/distributive/bitstring_agg.cpp"
+
 #include "src/function/aggregate/distributive/count.cpp"
 
 #include "src/function/aggregate/distributive/first.cpp"
