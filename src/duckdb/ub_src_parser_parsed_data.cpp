@@ -1,6 +1,8 @@
-#include "src/parser/parsed_data/alter_function_info.cpp"
-
 #include "src/parser/parsed_data/alter_info.cpp"
+
+#include "src/parser/parsed_data/alter_scalar_function_info.cpp"
+
+#include "src/parser/parsed_data/alter_table_function_info.cpp"
 
 #include "src/parser/parsed_data/alter_table_info.cpp"
 
