@@ -6,3 +6,5 @@
 
 #include "src/common/serializer/buffered_serializer.cpp"
 
+#include "src/common/serializer/enum_serializer.cpp"
+
