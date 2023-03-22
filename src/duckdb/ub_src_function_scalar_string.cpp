@@ -58,3 +58,5 @@
 
 #include "src/function/scalar/string/jaro_winkler.cpp"
 
+#include "src/function/scalar/string/hex.cpp"
+
