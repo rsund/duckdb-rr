@@ -2,6 +2,8 @@
 
 #include "src/planner/operator/logical_any_join.cpp"
 
+#include "src/planner/operator/logical_asof_join.cpp"
+
 #include "src/planner/operator/logical_column_data_get.cpp"
 
 #include "src/planner/operator/logical_comparison_join.cpp"
