@@ -36,6 +36,8 @@
 
 #include "src/common/types/interval.cpp"
 
+#include "src/common/types/list_segment.cpp"
+
 #include "src/common/types/partitioned_column_data.cpp"
 
 #include "src/common/types/row_data_collection.cpp"
