@@ -34,6 +34,8 @@
 
 #include "src/common/local_file_system.cpp"
 
+#include "src/common/multi_file_reader.cpp"
+
 #include "src/common/preserved_error.cpp"
 
 #include "src/common/printer.cpp"
