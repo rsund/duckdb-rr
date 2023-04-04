@@ -1,8 +1,8 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.7.2-dev1398"
+#define DUCKDB_VERSION "0.7.2-dev1455"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "e7f2c6585f"
+#define DUCKDB_SOURCE_ID "d84e329b28"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
@@ -28,7 +28,7 @@ static unique_ptr<FunctionData> PragmaVersionBind(ClientContext &context, TableF
 }
 
 static unique_ptr<GlobalTableFunctionState> PragmaVersionInit(ClientContext &context, TableFunctionInitInput &input) {
-	return make_unique<PragmaVersionData>();
+	return make_uniq<PragmaVersionData>();
 }
 
 static void PragmaVersionFunction(ClientContext &context, TableFunctionInput &data_p, DataChunk &output) {
