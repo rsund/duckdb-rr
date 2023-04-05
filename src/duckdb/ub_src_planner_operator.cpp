@@ -56,6 +56,8 @@
 
 #include "src/planner/operator/logical_order.cpp"
 
+#include "src/planner/operator/logical_pivot.cpp"
+
 #include "src/planner/operator/logical_positional_join.cpp"
 
 #include "src/planner/operator/logical_pragma.cpp"

@@ -28,3 +28,5 @@
 
 #include "src/planner/binder/tableref/plan_cteref.cpp"
 
+#include "src/planner/binder/tableref/plan_pivotref.cpp"
+
