@@ -1,8 +1,8 @@
 #ifndef DUCKDB_VERSION
-#define DUCKDB_VERSION "0.7.2-dev1623"
+#define DUCKDB_VERSION "0.7.2-dev1637"
 #endif
 #ifndef DUCKDB_SOURCE_ID
-#define DUCKDB_SOURCE_ID "30d444e45d"
+#define DUCKDB_SOURCE_ID "bacede9532"
 #endif
 #include "duckdb/function/table/system_functions.hpp"
 #include "duckdb/main/database.hpp"
@@ -87,7 +87,9 @@ string DuckDB::Platform() {
 		postfix = "_gcc4";
 	}
 #endif
-
+#ifdef __MINGW32__
+	postfix = "_mingw";
+#endif
 	return os + "_" + arch + postfix;
 }
 

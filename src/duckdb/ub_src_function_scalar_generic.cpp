@@ -6,6 +6,8 @@
 
 #include "src/function/scalar/generic/hash.cpp"
 
+#include "src/function/scalar/generic/error.cpp"
+
 #include "src/function/scalar/generic/least.cpp"
 
 #include "src/function/scalar/generic/stats.cpp"
