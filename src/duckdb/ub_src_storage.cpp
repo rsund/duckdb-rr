@@ -20,6 +20,8 @@
 
 #include "src/storage/storage_manager.cpp"
 
+#include "src/storage/standard_buffer_manager.cpp"
+
 #include "src/storage/table_index_list.cpp"
 
 #include "src/storage/write_ahead_log.cpp"

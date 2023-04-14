@@ -54,6 +54,8 @@
 
 #include "src/function/scalar/string/levenshtein.cpp"
 
+#include "src/function/scalar/string/damerau_levenshtein.cpp"
+
 #include "src/function/scalar/string/jaccard.cpp"
 
 #include "src/function/scalar/string/jaro_winkler.cpp"
