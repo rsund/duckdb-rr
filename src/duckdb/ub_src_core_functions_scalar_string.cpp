@@ -6,6 +6,8 @@
 
 #include "src/core_functions/scalar/string/damerau_levenshtein.cpp"
 
+#include "src/core_functions/scalar/string/format_bytes.cpp"
+
 #include "src/core_functions/scalar/string/hamming.cpp"
 
 #include "src/core_functions/scalar/string/hex.cpp"
