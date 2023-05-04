@@ -26,6 +26,8 @@
 
 #include "src/storage/write_ahead_log.cpp"
 
+#include "src/storage/optimistic_data_writer.cpp"
+
 #include "src/storage/partial_block_manager.cpp"
 
 #include "src/storage/single_file_block_manager.cpp"
