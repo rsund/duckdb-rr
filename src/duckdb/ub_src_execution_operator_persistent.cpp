@@ -8,6 +8,8 @@
 
 #include "src/execution/operator/persistent/csv_reader_options.cpp"
 
+#include "src/execution/operator/persistent/physical_batch_copy_to_file.cpp"
+
 #include "src/execution/operator/persistent/physical_batch_insert.cpp"
 
 #include "src/execution/operator/persistent/physical_copy_to_file.cpp"
