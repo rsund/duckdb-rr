@@ -26,6 +26,8 @@
 
 #include "src/planner/operator/logical_delim_join.cpp"
 
+#include "src/planner/operator/logical_dependent_join.cpp"
+
 #include "src/planner/operator/logical_distinct.cpp"
 
 #include "src/planner/operator/logical_dummy_scan.cpp"
@@ -67,6 +69,8 @@
 #include "src/planner/operator/logical_projection.cpp"
 
 #include "src/planner/operator/logical_recursive_cte.cpp"
+
+#include "src/planner/operator/logical_materialized_cte.cpp"
 
 #include "src/planner/operator/logical_sample.cpp"
 

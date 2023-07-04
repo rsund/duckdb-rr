@@ -22,7 +22,5 @@
 
 #include "src/execution/index/art/prefix.cpp"
 
-#include "src/execution/index/art/prefix_segment.cpp"
-
 #include "src/execution/index/art/art.cpp"
 
