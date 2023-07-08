@@ -18,6 +18,8 @@
 
 #include "src/common/exception_format_value.cpp"
 
+#include "src/common/extra_type_info.cpp"
+
 #include "src/common/field_writer.cpp"
 
 #include "src/common/file_buffer.cpp"

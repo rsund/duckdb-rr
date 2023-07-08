@@ -6,3 +6,5 @@
 
 #include "src/storage/serialization/serialize_tableref.cpp"
 
+#include "src/storage/serialization/serialize_types.cpp"
+
