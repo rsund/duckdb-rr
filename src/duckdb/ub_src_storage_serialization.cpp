@@ -20,6 +20,8 @@
 
 #include "src/storage/serialization/serialize_statement.cpp"
 
+#include "src/storage/serialization/serialize_table_filter.cpp"
+
 #include "src/storage/serialization/serialize_tableref.cpp"
 
 #include "src/storage/serialization/serialize_types.cpp"
